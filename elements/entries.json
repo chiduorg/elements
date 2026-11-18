@@ -1,0 +1,5045 @@
+[
+  {
+    "id": "elements.h",
+    "title": "氢：第 1 个质子把唯一电子放进 1s，也定义了元素轴的起点",
+    "titleEn": "Hydrogen",
+    "summary": "氢只有一个质子与一个 1s 电子，没有 Z−1 可比；13.598 eV 的电离能与 53 pm 的半径，为氦、锂以及整条元素轴提供第一把标尺。",
+    "dimension": "element",
+    "category": "非金属",
+    "displayValue": "Z = 1 · 1s¹ 元素轴起点",
+    "quantity": {
+      "value": 1,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "H",
+      "nameEn": "Hydrogen",
+      "period": 1,
+      "group": 1,
+      "block": "s",
+      "configuration": "1s1",
+      "valence": "1s1",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "氢位于第一级台阶的起点，1s 上只有一个电子。",
+      "note": "阶梯只表示壳层容量与填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第一周期",
+      "s 区",
+      "氢"
+    ]
+  },
+  {
+    "id": "elements.he",
+    "title": "氦：第 2 个质子把 1s 填满，第一周期在这里收尾",
+    "titleEn": "Helium",
+    "summary": "第二个电子进入同一 1s 并配对；第一电离能从 13.598 eV 升到 24.587 eV，半径从 53 pm 缩到 31 pm，闭壳让氦几乎不参与化学反应。",
+    "dimension": "element",
+    "category": "闭壳节点",
+    "displayValue": "Z = 2 · 1s² 闭壳",
+    "quantity": {
+      "value": 2,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "He",
+      "nameEn": "Helium",
+      "period": 1,
+      "group": 18,
+      "block": "s",
+      "configuration": "1s2",
+      "valence": "1s2",
+      "hub": true,
+      "closedShell": 2,
+      "periodStart": 1,
+      "periodEnd": 2,
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第一级台阶的终点，1s 恰好容纳两个电子。",
+      "note": "阶梯只表示壳层容量与填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第一周期",
+      "闭壳",
+      "氦"
+    ]
+  },
+  {
+    "id": "elements.li",
+    "title": "锂：第 3 个质子把电子赶出 1s，第二周期从 2s 开始",
+    "titleEn": "Lithium",
+    "summary": "1s 已被氦填满，第三个电子进入 2s；第一电离能从 24.587 eV 跌到 5.392 eV，半径从 31 pm 跳到 167 pm，闭壳后的重新开始定型。",
+    "dimension": "element",
+    "category": "碱金属",
+    "displayValue": "Z = 3 · [He]2s¹ 碱金属",
+    "quantity": {
+      "value": 3,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Li",
+      "nameEn": "Lithium",
+      "period": 2,
+      "group": 1,
+      "block": "s",
+      "configuration": "[He] 2s1",
+      "valence": "2s1",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第二级台阶的第一格，2s 上出现一个电子。",
+      "note": "阶梯只表示壳层容量与填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第二周期",
+      "s 区",
+      "锂"
+    ]
+  },
+  {
+    "id": "elements.be",
+    "title": "铍：第 4 个质子把 2s 填满，第二周期从金属一侧转向共价",
+    "titleEn": "Beryllium",
+    "summary": "锂的 2s1 补成 2s2，价层闭合而 2p 仍空；电离能升 3.931 eV、半径缩 55 pm，铍因此不再只靠交电子解决问题。",
+    "dimension": "element",
+    "category": "碱土金属",
+    "displayValue": "Z = 4 · [He] 2s² 碱土金属",
+    "quantity": {
+      "value": 4,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Be",
+      "nameEn": "Beryllium",
+      "period": 2,
+      "group": 2,
+      "block": "s",
+      "configuration": "[He] 2s2",
+      "valence": "2s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第二周期第一列的收尾处，2s 上的一对电子坐满。",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第二周期",
+      "s 区",
+      "铍"
+    ]
+  },
+  {
+    "id": "elements.b",
+    "title": "硼：第 5 个质子打开 2p，价层第一次长出方向",
+    "titleEn": "Boron",
+    "summary": "2s 已满，第五个电子只能进入 2p；电离能反降 1.025 eV、半径缩到 87 pm，硼越过金属边界，走向共价与三配位。",
+    "dimension": "element",
+    "category": "类金属",
+    "displayValue": "Z = 5 · [He] 2s² 2p¹ 类金属",
+    "quantity": {
+      "value": 5,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "B",
+      "nameEn": "Boron",
+      "period": 2,
+      "group": 13,
+      "block": "p",
+      "configuration": "[He] 2s2 2p1",
+      "valence": "2s2 2p1",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第二周期第一格 p 电子，2s 仍是完整的一对。",
+      "note": "阶梯只表示填充次序，不表示电子云真实形状。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第二周期",
+      "p 区",
+      "硼"
+    ]
+  },
+  {
+    "id": "elements.c",
+    "title": "碳：第 6 个质子补上第二个 2p 电子，三α过程就此落地",
+    "titleEn": "Carbon",
+    "summary": "从硼到碳，2p 从 1 个电子增加到 2 个；11.261 eV 的电离能、67 pm 的半径与 2.55 的电负性，让碳能用四个价电子搭出稳定的共价骨架。",
+    "dimension": "element",
+    "category": "非金属",
+    "displayValue": "Z = 6 · [He]2s²2p²",
+    "quantity": {
+      "value": 6,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "C",
+      "nameEn": "Carbon",
+      "period": 2,
+      "group": 14,
+      "block": "p",
+      "configuration": "[He] 2s2 2p2",
+      "valence": "2s2 2p2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第二级台阶中段，2p 上出现第二个电子。",
+      "note": "阶梯只表示壳层容量与填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第二周期",
+      "p 区",
+      "碳"
+    ]
+  },
+  {
+    "id": "elements.n",
+    "title": "氮：第 7 个质子补齐 2p 半满，CNO 循环把它送进星际",
+    "titleEn": "Nitrogen",
+    "summary": "从碳到氮，2p 从 2 个电子增到 3 个，恰好半满；第一电离能升到 14.534 eV，半径缩到 56 pm，3.04 的电负性让氮倾向抓电子而不是失电子。",
+    "dimension": "element",
+    "category": "非金属",
+    "displayValue": "Z = 7 · [He]2s²2p³",
+    "quantity": {
+      "value": 7,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "N",
+      "nameEn": "Nitrogen",
+      "period": 2,
+      "group": 15,
+      "block": "p",
+      "configuration": "[He] 2s2 2p3",
+      "valence": "2s2 2p3",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第二级台阶中段，2p 三个轨道各占一个电子。",
+      "note": "阶梯只表示壳层容量与填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第二周期",
+      "p 区",
+      "氮"
+    ]
+  },
+  {
+    "id": "elements.o",
+    "title": "氧：第 8 个质子补满 2p 的第二格，电负性升到 3.44",
+    "titleEn": "Oxygen",
+    "summary": "从氮到氧，2p 从 3 个电子增到 4 个；第一电离能反而降到 13.618 eV，半径缩到 48 pm，3.44 的电负性让氧成为第二周期里最会抢电子的元素。",
+    "dimension": "element",
+    "category": "非金属",
+    "displayValue": "Z = 8 · [He]2s²2p⁴",
+    "quantity": {
+      "value": 8,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "O",
+      "nameEn": "Oxygen",
+      "period": 2,
+      "group": 16,
+      "block": "p",
+      "configuration": "[He] 2s2 2p4",
+      "valence": "2s2 2p4",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第二级台阶中段，2p 上第一次出现成对电子。",
+      "note": "阶梯只表示壳层容量与填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第二周期",
+      "p 区",
+      "氧"
+    ]
+  },
+  {
+    "id": "elements.f",
+    "title": "氟：第 9 个质子让 2p 只差一格闭合，电负性封顶",
+    "titleEn": "Fluorine",
+    "summary": "氧的 2p4 再加一个电子成为 2p5，离氖闭壳只差一步；电离能升 3.804 eV、电负性到 3.98，氟成为最会抓电子的一格。",
+    "dimension": "element",
+    "category": "卤素",
+    "displayValue": "Z = 9 · [He] 2s² 2p⁵ 卤素",
+    "quantity": {
+      "value": 9,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "F",
+      "nameEn": "Fluorine",
+      "period": 2,
+      "group": 17,
+      "block": "p",
+      "configuration": "[He] 2s2 2p5",
+      "valence": "2s2 2p5",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第二周期最后一格，2p 上只剩一个空位。",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第二周期",
+      "p 区",
+      "卤素",
+      "氟"
+    ]
+  },
+  {
+    "id": "elements.ne",
+    "title": "氖：第 10 个质子填满 2p，第二周期在 21.565 eV 处收尾",
+    "titleEn": "Neon",
+    "summary": "从氟到氖，2p 补上最后一个电子；第一电离能从 17.422 eV 升到 21.565 eV，半径缩到 38 pm，2s2p 闭壳让氖不再需要争夺电子。",
+    "dimension": "element",
+    "category": "闭壳节点",
+    "displayValue": "Z = 10 · [He]2s²2p⁶ 闭壳",
+    "quantity": {
+      "value": 10,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ne",
+      "nameEn": "Neon",
+      "period": 2,
+      "group": 18,
+      "block": "p",
+      "configuration": "[He] 2s2 2p6",
+      "valence": "2s2 2p6",
+      "hub": true,
+      "closedShell": 10,
+      "periodStart": 3,
+      "periodEnd": 10,
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第二级台阶的终点，2s 与 2p 共容纳八个电子。",
+      "note": "阶梯只表示壳层容量与填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第二周期",
+      "闭壳",
+      "氖"
+    ]
+  },
+  {
+    "id": "elements.na",
+    "title": "钠：第 11 个质子把电子推进 3s，电离能一步跌掉 16.426 eV",
+    "titleEn": "Sodium",
+    "summary": "氖的 2s2p 已满，第 11 个电子只能进 3s；电离能从 21.565 eV 跌到 5.139 eV，半径从 38 pm 涨到 190 pm。",
+    "dimension": "element",
+    "category": "碱金属",
+    "displayValue": "Z = 11 · [Ne]3s¹ 碱金属",
+    "quantity": {
+      "value": 11,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Na",
+      "nameEn": "Sodium",
+      "period": 3,
+      "group": 1,
+      "block": "s",
+      "configuration": "1s2 2s2 2p6 3s1",
+      "valence": "3s1",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "钠位于第三级台阶的起点，3s 上只有一个电子。",
+      "note": "阶梯从氖的闭壳跨到 3s，高度表示填充次序，不表示精确能级。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第三周期",
+      "s 区",
+      "碱金属"
+    ]
+  },
+  {
+    "id": "elements.mg",
+    "title": "镁：第 12 个质子给 3s 补上第二个电子，半径缩了 45 pm",
+    "titleEn": "Magnesium",
+    "summary": "镁补上 3s 第二个电子后成对；电离能从 5.139 eV 升到 7.646 eV，半径从 190 pm 缩到 145 pm，价态由 +1 转为 +2。",
+    "dimension": "element",
+    "category": "碱土金属",
+    "displayValue": "Z = 12 · [Ne]3s² 碱土金属",
+    "quantity": {
+      "value": 12,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Mg",
+      "nameEn": "Magnesium",
+      "period": 3,
+      "group": 2,
+      "block": "s",
+      "configuration": "1s2 2s2 2p6 3s2",
+      "valence": "3s2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "镁把第三级台阶的 3s 补满，3p 仍然空着。",
+      "note": "3s 满壳不等于第三能层结束，3p 与 3d 的填充还在后面。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第三周期",
+      "s 区",
+      "碱土金属"
+    ]
+  },
+  {
+    "id": "elements.al",
+    "title": "铝：3p 的第一个电子比 3s 更松，电离能反而低于镁",
+    "titleEn": "Aluminium",
+    "summary": "镁的 3s 已满，铝把电子放进 3p；3p 屏蔽更强，电离能从 7.646 eV 降到 5.985 eV，半径仍从 145 pm 缩到 118 pm。",
+    "dimension": "element",
+    "category": "主族金属",
+    "displayValue": "Z = 13 · [Ne]3s²3p¹",
+    "quantity": {
+      "value": 13,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Al",
+      "nameEn": "Aluminium",
+      "period": 3,
+      "group": 13,
+      "block": "p",
+      "configuration": "1s2 2s2 2p6 3s2 3p1",
+      "valence": "3s2 3p1",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "铝跨入 3p，价层从满 3s 变成 3s2 3p1。",
+      "note": "p 轨道比 s 轨道更伸展，同一层内的能量并不相同。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第三周期",
+      "p 区",
+      "主族金属"
+    ]
+  },
+  {
+    "id": "elements.si",
+    "title": "硅：第 14 个质子把 3p 补到两个，成键方式拐向四面体网络",
+    "titleEn": "Silicon",
+    "summary": "铝的 3p 只有一个电子，硅补到两个；电离能从 5.985 eV 升到 8.152 eV，半径从 118 pm 缩到 111 pm，成键转向四面体网络。",
+    "dimension": "element",
+    "category": "类金属",
+    "displayValue": "Z = 14 · [Ne]3s²3p²",
+    "quantity": {
+      "value": 14,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Si",
+      "nameEn": "Silicon",
+      "period": 3,
+      "group": 14,
+      "block": "p",
+      "configuration": "1s2 2s2 2p6 3s2 3p2",
+      "valence": "3s2 3p2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "硅位于 p 区中段，3p 上已有两个电子。",
+      "note": "这一步是金属侧与非金属侧的分界，阶梯只表示填充次序。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第三周期",
+      "p 区",
+      "半导体"
+    ]
+  },
+  {
+    "id": "elements.p",
+    "title": "磷：第 15 个质子填出 3p 半满，电离能跳升 2.335 eV",
+    "titleEn": "Phosphorus",
+    "summary": "硅的 3p 有两个电子，磷加到三个，恰好半满；电离能从 8.152 eV 升到 10.487 eV，半径从 111 pm 缩到 98 pm，成键转向 P₄。",
+    "dimension": "element",
+    "category": "非金属",
+    "displayValue": "Z = 15 · [Ne]3s²3p³",
+    "quantity": {
+      "value": 15,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "P",
+      "nameEn": "Phosphorus",
+      "period": 3,
+      "group": 15,
+      "block": "p",
+      "configuration": "1s2 2s2 2p6 3s2 3p3",
+      "valence": "3s2 3p3",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "磷的 3p 达到半满，三条 p 轨道各占一个电子。",
+      "note": "半满不是填满，第四个 p 电子开始就要成对。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第三周期",
+      "p 区",
+      "半满"
+    ]
+  },
+  {
+    "id": "elements.s",
+    "title": "硫：第 16 个质子让 3p 开始成对，电离能出现第一次回落",
+    "titleEn": "Sulfur",
+    "summary": "磷的 3p 已半满，硫再加一个电子便成对；电离能从 10.487 eV 微降到 10.360 eV，半径从 98 pm 缩到 88 pm，电负性升到 2.58。",
+    "dimension": "element",
+    "category": "非金属",
+    "displayValue": "Z = 16 · [Ne]3s²3p⁴",
+    "quantity": {
+      "value": 16,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "S",
+      "nameEn": "Sulfur",
+      "period": 3,
+      "group": 16,
+      "block": "p",
+      "configuration": "1s2 2s2 2p6 3s2 3p4",
+      "valence": "3s2 3p4",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "硫的 3p 出现第一对成对电子。",
+      "note": "配对带来排斥，这是电离能回落的位置。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第三周期",
+      "p 区",
+      "成对"
+    ]
+  },
+  {
+    "id": "elements.cl",
+    "title": "氯：第 17 个质子把 3p 补到五个，电负性升到 3.16",
+    "titleEn": "Chlorine",
+    "summary": "硫的 3p 有四个电子，氯补到五个，差一个闭壳；电离能从 10.360 eV 升到 12.968 eV，半径从 88 pm 缩到 79 pm，电负性 3.16。",
+    "dimension": "element",
+    "category": "卤素",
+    "displayValue": "Z = 17 · [Ne]3s²3p⁵ 卤素",
+    "quantity": {
+      "value": 17,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Cl",
+      "nameEn": "Chlorine",
+      "period": 3,
+      "group": 17,
+      "block": "p",
+      "configuration": "1s2 2s2 2p6 3s2 3p5",
+      "valence": "3s2 3p5",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "氯站在闭壳前一格，3p 只剩一个空位。",
+      "note": "空位决定它容易接受电子，不等于它已经稳定。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第三周期",
+      "p 区",
+      "卤素"
+    ]
+  },
+  {
+    "id": "elements.ar",
+    "title": "氩：第 18 个质子合上 3p，却把 3d 留成了空位",
+    "titleEn": "Closed shell 18: argon and the filled 3s3p",
+    "dimension": "element",
+    "category": "闭壳节点",
+    "summary": "氩补上后 3s3p 全满；电离能从 12.968 eV 升到 15.760 eV，半径从 79 pm 缩到 71 pm，但 3d 仍空，第四周期先填 4s。",
+    "quantity": {
+      "value": 18,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "displayValue": "Z = 18 · [Ne]3s²3p⁶ 闭壳",
+    "element": {
+      "symbol": "Ar",
+      "nameEn": "Argon",
+      "period": 3,
+      "group": 18,
+      "block": "p",
+      "configuration": "1s2 2s2 2p6 3s2 3p6",
+      "valence": "3s2 3p6",
+      "level": "A",
+      "hub": true,
+      "closedShell": 18,
+      "periodStart": 11,
+      "periodEnd": 18
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第三级台阶收尾，3s3p 全满，3d 空位留在台上。",
+      "note": "阶梯只表示亚层容量与填充次序，不表示能级的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第三周期",
+      "p 区",
+      "闭壳",
+      "氩"
+    ]
+  },
+  {
+    "id": "elements.k",
+    "title": "钾：第 19 个质子绕开 3d，先把 4s 占住",
+    "titleEn": "Potassium",
+    "summary": "钾把新电子放进 4s 而不是空的 3d，第四周期第一次出现 4s 与 3d 的交错；电离能骤降，半径骤增，主族式的化学从这里重新开始。",
+    "dimension": "element",
+    "category": "碱金属",
+    "displayValue": "Z = 19 · [Ar]4s¹ 碱金属",
+    "quantity": {
+      "value": 19,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "K",
+      "nameEn": "Potassium",
+      "period": 4,
+      "group": 1,
+      "block": "s",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 4s1",
+      "valence": "4s1",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第四级台阶的第一格，4s 先于 3d 被占。",
+      "note": "阶梯只表示亚层容量与填充次序，不表示能级的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "4s 先行",
+      "钾"
+    ]
+  },
+  {
+    "id": "elements.ca",
+    "title": "钙：第 20 个质子把 4s 填满，却让 3d 继续空着",
+    "titleEn": "Calcium",
+    "summary": "钙把 4s 补成一对，4s 仍压在 3d 之下；电离能跳升、半径收缩，钙稳定为二价，3d 要等到钪才开始填充，它是 3d 门前最后一个主族元素。",
+    "dimension": "element",
+    "category": "碱土金属",
+    "displayValue": "Z = 20 · [Ar]4s² 碱土金属",
+    "quantity": {
+      "value": 20,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ca",
+      "nameEn": "Calcium",
+      "period": 4,
+      "group": 2,
+      "block": "s",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 4s2",
+      "valence": "4s2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第四级台阶的第二格，4s 满员而 3d 仍空。",
+      "note": "阶梯只表示亚层容量与填充次序，不表示能级的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "4s 满员",
+      "钙"
+    ]
+  },
+  {
+    "id": "elements.sc",
+    "title": "钪：第 21 个质子第一次把电子放进 3d，过渡金属从这里开始",
+    "titleEn": "Scandium",
+    "summary": "钙把 4s 填满后，第二十一个电子转入 3d；电离能只升 0.449 eV、半径缩 10 pm，钪成为 3d 区的第一格。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 21 · [Ar] 3d¹ 4s² 过渡金属",
+    "quantity": {
+      "value": 21,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Sc",
+      "nameEn": "Scandium",
+      "period": 4,
+      "group": 3,
+      "block": "d",
+      "configuration": "[Ar] 3d1 4s2",
+      "valence": "3d1 4s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第四周期第三列，3d 台阶上落下第一个电子。",
+      "note": "阶梯只表示填充次序，不表示亚层真实能量高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "d 区",
+      "钪"
+    ]
+  },
+  {
+    "id": "elements.ti",
+    "title": "钛：第 22 个质子开始回填 3d，半径的收缩第一次变缓",
+    "titleEn": "Titanium",
+    "summary": "钛让新电子进入 3d，3d2 4s2 开始成形；电离能只小幅上升，半径收缩变缓，过渡金属的多价态与磁性由此展开，3d 与 4s 的分工从此固定。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 22 · [Ar]3d²4s²",
+    "quantity": {
+      "value": 22,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ti",
+      "nameEn": "Titanium",
+      "period": 4,
+      "group": 4,
+      "block": "d",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d2 4s2",
+      "valence": "3d2 4s2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "3d 台阶开始填充，4s 已满。",
+      "note": "阶梯只表示亚层容量与填充次序，不表示能级的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "3d 填充",
+      "钛"
+    ]
+  },
+  {
+    "id": "elements.v",
+    "title": "钒：第 23 个质子把 3d 填到三个，多价性有了支点",
+    "titleEn": "Vanadium",
+    "summary": "钛的 3d2 再加一个电子成为 3d3，4s2 未动；电离能微降 0.082 eV、半径缩 5 pm，钒在 +2 到 +5 之间留出余地。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 23 · [Ar] 3d³ 4s² 过渡金属",
+    "quantity": {
+      "value": 23,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "V",
+      "nameEn": "Vanadium",
+      "period": 4,
+      "group": 5,
+      "block": "d",
+      "configuration": "[Ar] 3d3 4s2",
+      "valence": "3d3 4s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第四周期第五列，3d 台阶上第三个电子，仍分占不同轨道。",
+      "note": "阶梯只表示填充次序，不表示亚层真实能量高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "d 区",
+      "钒"
+    ]
+  },
+  {
+    "id": "elements.cr",
+    "title": "铬：第 24 个质子宁可不按顺序，也要换来 3d5 4s1 的半充满",
+    "titleEn": "Chromium",
+    "summary": "铬不是 3d4 4s2：它把一个 4s 电子推进 3d，换来半充满的 3d5 4s1；电离能几乎不变，半径继续收缩，铜的异常与它同类。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 24 · [Ar]3d⁵4s¹",
+    "quantity": {
+      "value": 24,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Cr",
+      "nameEn": "Chromium",
+      "period": 4,
+      "group": 6,
+      "block": "d",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d5 4s1",
+      "valence": "3d5 4s1",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "3d 台阶走到半充满，4s 反而让出一个电子。",
+      "note": "阶梯只表示亚层容量与填充次序，不表示能级的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "3d 半充满",
+      "铬"
+    ]
+  },
+  {
+    "id": "elements.mn",
+    "title": "锰：第 25 个质子把 4s 补成一对，电离能因此陡升",
+    "titleEn": "Manganese",
+    "summary": "锰把 4s 补成一对，得到双半充满的 3d5 4s2；电离能跃升 0.667 eV，电负性却下降，是本段最反常的一步，电负性不是 Z 的单调函数。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 25 · [Ar]3d⁵4s²",
+    "quantity": {
+      "value": 25,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Mn",
+      "nameEn": "Manganese",
+      "period": 4,
+      "group": 7,
+      "block": "d",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d5 4s2",
+      "valence": "3d5 4s2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "3d 半充满不动，4s 补上第二个电子。",
+      "note": "阶梯只表示亚层容量与填充次序，不表示能级的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "双半充满",
+      "锰"
+    ]
+  },
+  {
+    "id": "elements.fe",
+    "title": "铁：第 26 个质子填进 3d，也把恒星推到聚变终点",
+    "titleEn": "Iron",
+    "summary": "铁让电子进入 3d、打破半充满，得到 3d6 4s2；电离能继续上升，而铁峰让核聚变在这里失去能量回报，元素轴在这里分成两段。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 26 · [Ar]3d⁶4s²",
+    "quantity": {
+      "value": 26,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Fe",
+      "nameEn": "Iron",
+      "period": 4,
+      "group": 8,
+      "block": "d",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d6 4s2",
+      "valence": "3d6 4s2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "3d 台阶越过半充满，铁峰就在这一格附近。",
+      "note": "阶梯只表示亚层容量与填充次序，不表示能级的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "铁峰",
+      "铁"
+    ]
+  },
+  {
+    "id": "elements.co",
+    "title": "钴：第 27 个质子让 3d 开始成对，电离能不升反降",
+    "titleEn": "Cobalt",
+    "summary": "钴把新电子放进 3d，得到 3d7 4s2；3d 的成对排斥抵消核电荷增加，电离能微降，而它的来源是 ⁵⁶Ni 的衰变链。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 27 · [Ar]3d⁷4s²",
+    "quantity": {
+      "value": 27,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Co",
+      "nameEn": "Cobalt",
+      "period": 4,
+      "group": 9,
+      "block": "d",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d7 4s2",
+      "valence": "3d7 4s2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "3d 台阶出现第二个电子对，4s 仍满员。",
+      "note": "阶梯只表示亚层容量与填充次序，不表示能级的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "3d 成对",
+      "钴"
+    ]
+  },
+  {
+    "id": "elements.ni",
+    "title": "镍：第 28 个质子继续填 3d，却把 4s 留在满员状态",
+    "titleEn": "Nickel",
+    "summary": "镍把电子加进 3d 得到 3d8 4s2，4s 仍满员，没有出现铜式的 3d10 4s1；电离能下降，中子数还比钴少 2 个。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 28 · [Ar]3d⁸4s²",
+    "quantity": {
+      "value": 28,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ni",
+      "nameEn": "Nickel",
+      "period": 4,
+      "group": 10,
+      "block": "d",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d8 4s2",
+      "valence": "3d8 4s2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "3d 台阶逼近填满，4s 仍保持两个电子。",
+      "note": "阶梯只表示亚层容量与填充次序，不表示能级的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "3d 填充",
+      "镍"
+    ]
+  },
+  {
+    "id": "elements.cu",
+    "title": "铜：第 29 个质子把 4s 电子退回 3d，换来填满的 d 亚层",
+    "titleEn": "Copper",
+    "summary": "镍的 3d8 4s2 到铜变成 3d10 4s1：多出的质子让一个 4s 电子转入 3d，填满的 d 亚层抬高电离能，也塑造了铜的一价化学与颜色。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 29 · [Ar]3d¹⁰4s¹",
+    "quantity": {
+      "value": 29,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Cu",
+      "nameEn": "Copper",
+      "period": 4,
+      "group": 11,
+      "block": "d",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s1",
+      "valence": "3d10 4s1",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "铜位于第四周期 3d 填充段的末端，4s 只留一个电子。",
+      "note": "阶梯表示亚层容量与填充次序，不表示 3d 与 4s 的精确能量高低。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "3d 区",
+      "铜"
+    ]
+  },
+  {
+    "id": "elements.zn",
+    "title": "锌：第 30 个质子补满 4s，把 3d 过渡系关上了门",
+    "titleEn": "Zinc",
+    "summary": "铜的 3d10 4s1 到锌变成 3d10 4s2：最后一个电子进入 4s，4s 闭合使电离能跳升 1.667 eV，也让锌只剩 +2 价。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 30 · [Ar]3d¹⁰4s²",
+    "quantity": {
+      "value": 30,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Zn",
+      "nameEn": "Zinc",
+      "period": 4,
+      "group": 12,
+      "block": "d",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2",
+      "valence": "3d10 4s2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "锌站在 3d 段的终点，4s 也被两个电子填满。",
+      "note": "阶梯表示亚层容量与填充次序，4s 与 3d 的实际能量高低不在图中按比例表示。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "3d 区",
+      "锌"
+    ]
+  },
+  {
+    "id": "elements.ga",
+    "title": "镓：第 31 个质子钻出 3d10，把第四周期拉回 p 区",
+    "titleEn": "Gallium",
+    "summary": "锌的 3d10 4s2 之后，电子只能进入 4p；电离能骤降 3.395 eV、半径缩到 136 pm，镓成为 d 区之后的第一个主族金属。",
+    "dimension": "element",
+    "category": "主族金属",
+    "displayValue": "Z = 31 · [Ar] 3d¹⁰ 4s² 4p¹ 主族金属",
+    "quantity": {
+      "value": 31,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ga",
+      "nameEn": "Gallium",
+      "period": 4,
+      "group": 13,
+      "block": "p",
+      "configuration": "[Ar] 3d10 4s2 4p1",
+      "valence": "3d10 4s2 4p1",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第四周期 3d 台阶填满后，电子第一次落到 4p 上。",
+      "note": "阶梯只表示填充次序，不表示亚层真实能量高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "p 区",
+      "镓"
+    ]
+  },
+  {
+    "id": "elements.ge",
+    "title": "锗：第 32 个质子把 4p 加到两个，第四周期开始向共价倾斜",
+    "titleEn": "Germanium",
+    "summary": "镓的 4p1 变成 4p2，3d10 与 4s2 保持完整；电离能跳升 1.899 eV、电负性到 2.01，锗站到金属与类金属的交界。",
+    "dimension": "element",
+    "category": "类金属",
+    "displayValue": "Z = 32 · [Ar] 3d¹⁰ 4s² 4p² 类金属",
+    "quantity": {
+      "value": 32,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ge",
+      "nameEn": "Germanium",
+      "period": 4,
+      "group": 14,
+      "block": "p",
+      "configuration": "[Ar] 3d10 4s2 4p2",
+      "valence": "3d10 4s2 4p2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第四周期 4p 台阶上的第二个电子，3d 已经满员。",
+      "note": "阶梯只表示填充次序，不表示亚层真实能量高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "p 区",
+      "锗"
+    ]
+  },
+  {
+    "id": "elements.as",
+    "title": "砷：第 33 个质子让 4p 半满，类金属性格被固定下来",
+    "titleEn": "Arsenic",
+    "summary": "锗的 4p2 再加一个电子成为 4p3，三个 p 轨道各占一个；电离能升 1.917 eV、半径缩 11 pm，砷卡在金属与非金属之间。",
+    "dimension": "element",
+    "category": "类金属",
+    "displayValue": "Z = 33 · [Ar] 3d¹⁰ 4s² 4p³ 类金属",
+    "quantity": {
+      "value": 33,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "As",
+      "nameEn": "Arsenic",
+      "period": 4,
+      "group": 15,
+      "block": "p",
+      "configuration": "[Ar] 3d10 4s2 4p3",
+      "valence": "3d10 4s2 4p3",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第四周期 4p 台阶半满，三个轨道各一个电子。",
+      "note": "阶梯只表示填充次序，不表示亚层真实能量高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "p 区",
+      "砷",
+      "类金属"
+    ]
+  },
+  {
+    "id": "elements.se",
+    "title": "硒：第 34 个质子打破 4p 半满，非金属一侧就此确定",
+    "titleEn": "Selenium",
+    "summary": "砷的 4p3 再加一个电子成为 4p4，第一次出现配对；电离能微降 0.062 eV、电负性跳到 2.55，硒明确站到非金属一边。",
+    "dimension": "element",
+    "category": "非金属",
+    "displayValue": "Z = 34 · [Ar] 3d¹⁰ 4s² 4p⁴ 非金属",
+    "quantity": {
+      "value": 34,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Se",
+      "nameEn": "Selenium",
+      "period": 4,
+      "group": 16,
+      "block": "p",
+      "configuration": "[Ar] 3d10 4s2 4p4",
+      "valence": "3d10 4s2 4p4",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第四周期 4p 台阶上出现第一个成对电子。",
+      "note": "阶梯只表示填充次序，不表示亚层真实能量高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "p 区",
+      "硒",
+      "非金属"
+    ]
+  },
+  {
+    "id": "elements.br",
+    "title": "溴：第 35 个质子把 4p 填到五个，离闭壳只差一个电子",
+    "titleEn": "Bromine",
+    "summary": "硒的 4p4 到溴的 4p5：新增电子进入 4p，半径缩小 9 pm，电负性升到 2.96，使溴成为强吸电子的卤素；但 4p 尚差一个电子，真正的闭壳要等到氪。",
+    "dimension": "element",
+    "category": "卤素",
+    "displayValue": "Z = 35 · [Ar]3d¹⁰4s²4p⁵ 卤素",
+    "quantity": {
+      "value": 35,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Br",
+      "nameEn": "Bromine",
+      "period": 4,
+      "group": 17,
+      "block": "p",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p5",
+      "valence": "3d10 4s2 4p5",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "溴位于第四周期 4p 段的后半，离 4p6 只差一个电子。",
+      "note": "阶梯表示亚层容量与填充次序，不表示 4p 与 4s 的精确能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第四周期",
+      "4p 区",
+      "卤素"
+    ]
+  },
+  {
+    "id": "elements.kr",
+    "title": "氪：第 36 个质子合上 4p，第四周期第一次完整闭壳",
+    "titleEn": "Krypton",
+    "summary": "溴的 4p5 到氪的 4p6：最后一个电子补满 4p，电离能升到 14.000 eV，半径缩到 88 pm。4s3d4p 三段走完，氪成为第四周期闭壳节点。",
+    "dimension": "element",
+    "category": "闭壳节点",
+    "quantity": {
+      "value": 36,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "displayValue": "Z = 36 · [Ar]3d¹⁰4s²4p⁶ 闭壳",
+    "element": {
+      "symbol": "Kr",
+      "nameEn": "Krypton",
+      "period": 4,
+      "group": 18,
+      "block": "p",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6",
+      "valence": "3d10 4s2 4p6",
+      "hub": true,
+      "closedShell": 36,
+      "periodStart": 19,
+      "periodEnd": 36,
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "氪站在第四周期的终点，4s、3d、4p 三段全部填满。",
+      "note": "阶梯表示容量与填充次序，不表示 3d 与 4s 的实际能量高低。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "闭壳节点",
+      "第四周期",
+      "氪"
+    ]
+  },
+  {
+    "id": "elements.rb",
+    "title": "铷：第 37 个质子开启 5s，把氪的闭壳换成一枚松电子",
+    "titleEn": "Rubidium",
+    "summary": "氪的 4p6 已经合上，铷的新电子只能开一层 5s；电离能从 14.000 eV 跌到 4.177 eV，半径从 88 pm 涨到 265 pm，闭壳与碱金属之间的落差在这一格最陡。",
+    "dimension": "element",
+    "category": "碱金属",
+    "displayValue": "Z = 37 · [Kr] 5s¹ 碱金属",
+    "quantity": {
+      "value": 37,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Rb",
+      "nameEn": "Rubidium",
+      "period": 5,
+      "group": 1,
+      "block": "s",
+      "configuration": "[Kr] 5s1",
+      "valence": "5s1",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第五周期第一格，5s 只放了一枚电子。",
+      "note": "阶梯只表示填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "s 区",
+      "铷"
+    ]
+  },
+  {
+    "id": "elements.sr",
+    "title": "锶：第 38 个质子把 5s 补成一对，也把第二族钉在二价",
+    "titleEn": "Strontium",
+    "summary": "铷的 5s1 到锶的 5s2，新增电子仍进同一亚层；电离能从 4.177 eV 升到 5.695 eV，半径从 265 pm 收到 219 pm，4d 仍空着。",
+    "dimension": "element",
+    "category": "碱土金属",
+    "displayValue": "Z = 38 · [Kr] 5s² 碱土金属",
+    "quantity": {
+      "value": 38,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Sr",
+      "nameEn": "Strontium",
+      "period": 5,
+      "group": 2,
+      "block": "s",
+      "configuration": "[Kr] 5s2",
+      "valence": "5s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5s 在锶这一格闭合，4d 仍空。",
+      "note": "5s 成对不等于整层闭壳，4d 还留着下一格的位置。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "碱土金属",
+      "锶"
+    ]
+  },
+  {
+    "id": "elements.y",
+    "title": "钇：第 39 个质子第一次把电子放进 4d，第五周期 d 区从此开张",
+    "titleEn": "Yttrium",
+    "summary": "锶的 5s2 已经填满，钇的新电子转入 4d，得到 [Kr] 4d1 5s2；电离能从 5.695 eV 升到 6.219 eV，半径从 219 pm 收到 212 pm。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 39 · [Kr] 4d¹ 5s² 过渡金属",
+    "quantity": {
+      "value": 39,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Y",
+      "nameEn": "Yttrium",
+      "period": 5,
+      "group": 3,
+      "block": "d",
+      "configuration": "[Kr] 4d1 5s2",
+      "valence": "4d1 5s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第五周期的 d 区在钇这一格开门。",
+      "note": "阶梯表示填充次序，不表示 4d 与 5s 的实际能量高低。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "d 区",
+      "钇"
+    ]
+  },
+  {
+    "id": "elements.zr",
+    "title": "锆：第 40 个质子把 4d 加到两枚，价层从此可以一次清空",
+    "titleEn": "Zirconium",
+    "summary": "钇的 4d1 5s2 再加一枚 4d，得到 [Kr] 4d2 5s2；电离能从 6.219 eV 升到 6.634 eV，半径从 212 pm 收到 206 pm，收缩明显放缓。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 40 · [Kr] 4d² 5s² 过渡金属",
+    "quantity": {
+      "value": 40,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Zr",
+      "nameEn": "Zirconium",
+      "period": 5,
+      "group": 4,
+      "block": "d",
+      "configuration": "[Kr] 4d2 5s2",
+      "valence": "4d2 5s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4d 在锆这一格加到两枚，5s 仍满。",
+      "note": "阶梯只表示填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "d 区",
+      "锆"
+    ]
+  },
+  {
+    "id": "elements.nb",
+    "title": "铌：第 41 个质子把一枚 5s 电子让进 4d，价层第一次重排",
+    "titleEn": "Niobium",
+    "summary": "锆的 4d2 5s2 本该再加一枚 4d，铌却写成 [Kr] 4d4 5s1；电离能从 6.634 eV 只升到 6.759 eV，半径从 206 pm 收到 198 pm。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 41 · [Kr] 4d⁴ 5s¹ 过渡金属",
+    "quantity": {
+      "value": 41,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Nb",
+      "nameEn": "Niobium",
+      "period": 5,
+      "group": 5,
+      "block": "d",
+      "configuration": "[Kr] 4d4 5s1",
+      "valence": "4d4 5s1",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5s 在铌这一格让出一枚电子，4d 加到四枚。",
+      "note": "阶梯只表示填充次序，不表示 4d 与 5s 的实际能量高低。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "d 区",
+      "铌"
+    ]
+  },
+  {
+    "id": "elements.mo",
+    "title": "钼：第 42 个质子让 4d 与 5s 同时半满，交换能开始改写化学",
+    "titleEn": "Molybdenum",
+    "summary": "铌的 4d4 5s1 再加一枚 4d，得到 [Kr] 4d5 5s1；电离能从 6.759 eV 升到 7.092 eV，半径从 198 pm 收到 190 pm，电负性一次跳升 0.56。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 42 · [Kr] 4d⁵ 5s¹ 过渡金属",
+    "quantity": {
+      "value": 42,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Mo",
+      "nameEn": "Molybdenum",
+      "period": 5,
+      "group": 6,
+      "block": "d",
+      "configuration": "[Kr] 4d5 5s1",
+      "valence": "4d5 5s1",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4d 与 5s 在钼这一格同时到半满。",
+      "note": "阶梯只表示填充次序，不表示亚层的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "d 区",
+      "钼"
+    ]
+  },
+  {
+    "id": "elements.tc",
+    "title": "锝：第 43 个质子把 5s 补成一对，却补不出一个稳定的核",
+    "titleEn": "Technetium",
+    "summary": "钼的 4d5 5s1 到锝的 4d5 5s2，5s 重新成对；电离能从 7.092 eV 升到 7.276 eV，半径从 190 pm 收到 183 pm，而锝无稳定同位素。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 43 · [Kr] 4d⁵ 5s² 过渡金属",
+    "quantity": {
+      "value": 43,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Tc",
+      "nameEn": "Technetium",
+      "period": 5,
+      "group": 7,
+      "block": "d",
+      "configuration": "[Kr] 4d5 5s2",
+      "valence": "4d5 5s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5s 在锝这一格重新成对，4d 保持五枚。",
+      "note": "阶梯只表示填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "d 区",
+      "锝",
+      "无稳定同位素"
+    ]
+  },
+  {
+    "id": "elements.ru",
+    "title": "钌：第 44 个质子把 5s 再让出一枚，稳定性却在相邻一格突然回来",
+    "titleEn": "Ruthenium",
+    "summary": "锝的 4d5 5s2 到钌的 4d7 5s1，构型再次重排；电离能从 7.276 eV 升到 7.361 eV，半径从 183 pm 收到 178 pm，而钌又有稳定同位素。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 44 · [Kr] 4d⁷ 5s¹ 过渡金属",
+    "quantity": {
+      "value": 44,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ru",
+      "nameEn": "Ruthenium",
+      "period": 5,
+      "group": 8,
+      "block": "d",
+      "configuration": "[Kr] 4d7 5s1",
+      "valence": "4d7 5s1",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4d 在钌这一格加到七枚，5s 退回半满。",
+      "note": "阶梯只表示填充次序，不表示亚层的精确高度。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "d 区",
+      "钌"
+    ]
+  },
+  {
+    "id": "elements.rh",
+    "title": "铑：第 45 个质子把 4d 推到八枚，价态开始收窄",
+    "titleEn": "Rhodium",
+    "summary": "钌的 4d7 5s1 再加一枚 4d，得到 [Kr] 4d8 5s1；电离能从 7.361 eV 升到 7.459 eV，半径从 178 pm 收到 173 pm，增幅全面放缓。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 45 · [Kr] 4d⁸ 5s¹ 过渡金属",
+    "quantity": {
+      "value": 45,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Rh",
+      "nameEn": "Rhodium",
+      "period": 5,
+      "group": 9,
+      "block": "d",
+      "configuration": "[Kr] 4d8 5s1",
+      "valence": "4d8 5s1",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4d 在铑这一格加到八枚，离全满只差两枚。",
+      "note": "阶梯只表示填充次序，不表示电子云的真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "d 区",
+      "铑"
+    ]
+  },
+  {
+    "id": "elements.pd",
+    "title": "钯：第 46 个质子把 4d 填满，也让 5s 第一次空着",
+    "titleEn": "Palladium",
+    "summary": "铑的 4d8 5s1 到钯的 4d10，新增电子与原来的 5s 电子一起转入 4d，5s 被清空。4d 闭壳把电离能推高、半径压到 169 pm，钯的价态重心因此移向 +2。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 46 · [Kr] 4d¹⁰ 过渡金属",
+    "quantity": {
+      "value": 46,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Pd",
+      "nameEn": "Palladium",
+      "period": 5,
+      "group": 10,
+      "block": "d",
+      "configuration": "[Kr] 4d10",
+      "valence": "4d10",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "钯位于第五周期 4d 段收尾处，4d 满十而 5s 空着。",
+      "note": "阶梯只表示填充次序，不表示 4d 与 5s 的精确能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "4d 区",
+      "钯"
+    ]
+  },
+  {
+    "id": "elements.ag",
+    "title": "银：第 47 个质子重复铜的异常，4d 填满而 5s 只留一个",
+    "titleEn": "Silver",
+    "summary": "钯之后多一个质子，银没有继续填 4d，而是把电子放进 5s，得到 4d10 5s1。填满的 4d 与单个 5s 让银的电离能低于钯，仍保住 +1 价的稳定性。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 47 · [Kr]4d¹⁰5s¹",
+    "quantity": {
+      "value": 47,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ag",
+      "nameEn": "Silver",
+      "period": 5,
+      "group": 11,
+      "block": "d",
+      "configuration": "[Kr] 4d10 5s1",
+      "valence": "4d10 5s1",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "银位于第五周期 4d 段的末端，5s 只留一个电子。",
+      "note": "阶梯表示亚层容量与填充次序，不表示 4d 与 5s 的精确能量高低。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "4d 区",
+      "银"
+    ]
+  },
+  {
+    "id": "elements.cd",
+    "title": "镉：第 48 个质子把 5s 补满，d 区在这里关门",
+    "titleEn": "Cadmium",
+    "summary": "银的 4d10 5s1 到镉的 4d10 5s2，新增电子落进 5s，把一对补满。5s 闭合让电离能跳升 1.418 eV，半径只缩 4 pm；再往后的铟要把电子放进 5p，价层从此换轨。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 48 · [Kr] 4d¹⁰ 5s² 过渡金属",
+    "quantity": {
+      "value": 48,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Cd",
+      "nameEn": "Cadmium",
+      "period": 5,
+      "group": 12,
+      "block": "d",
+      "configuration": "[Kr] 4d10 5s2",
+      "valence": "4d10 5s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "镉位于第五周期 4d 段出口，4d 满十、5s 补成一对。",
+      "note": "阶梯只表示填充次序，不表示 4d 与 5s 的精确能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "4d 区",
+      "镉"
+    ]
+  },
+  {
+    "id": "elements.in",
+    "title": "铟：第 49 个质子第一次把电子放进 5p，电离能应声下落",
+    "titleEn": "Indium",
+    "summary": "镉的 4d10 5s2 已满，铟的新增电子只能进入 5p，得到 4d10 5s2 5p1。5p 更外、屏蔽更强，第一电离能从 8.994 eV 掉到 5.786 eV；5s2 那一对留在原处，成为惰性电子对的雏形。",
+    "dimension": "element",
+    "category": "主族金属",
+    "displayValue": "Z = 49 · [Kr] 4d¹⁰ 5s² 5p¹ 主族金属",
+    "quantity": {
+      "value": 49,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "In",
+      "nameEn": "Indium",
+      "period": 5,
+      "group": 13,
+      "block": "p",
+      "configuration": "[Kr] 4d10 5s2 5p1",
+      "valence": "4d10 5s2 5p1",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "铟位于第五周期 5p 段起点，4d 与 5s 已封口。",
+      "note": "阶梯只表示填充次序，不表示 5p 与 5s 的精确能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "5p 区",
+      "铟"
+    ]
+  },
+  {
+    "id": "elements.sn",
+    "title": "锡：第 50 个质子把 5p 填到两个，也把十种稳定同位素留在同一格",
+    "titleEn": "Tin",
+    "summary": "铟的 5p1 到锡的 5p2：半径缩小 11 pm。Z=50 的幻数质子壳撑宽稳定谷，让锡有十种稳定同位素；N=82 的 132Sn 是双幻数端点。",
+    "dimension": "element",
+    "category": "主族金属",
+    "displayValue": "Z = 50 · [Kr]4d¹⁰5s²5p²",
+    "quantity": {
+      "value": 50,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Sn",
+      "nameEn": "Tin",
+      "period": 5,
+      "group": 14,
+      "block": "p",
+      "configuration": "[Kr] 4d10 5s2 5p2",
+      "valence": "4d10 5s2 5p2",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "锡位于第五周期 5p 段的开头，5s 与 5p 各有两个电子。",
+      "note": "阶梯表示亚层容量与填充次序，不表示 5p 与 5s 的精确能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "5p 区",
+      "锡"
+    ]
+  },
+  {
+    "id": "elements.sb",
+    "title": "锑：第 51 个质子把 5p 填成半满，类金属的分界在这里变硬",
+    "titleEn": "Antimony",
+    "summary": "锡的 5p2 到锑的 5p3，新增电子把 5p 推到半满。半满的交换稳定让第一电离能回升 1.300 eV、半径缩 12 pm；失去或得到电子都不划算，锑因此卡在金属与非金属之间。",
+    "dimension": "element",
+    "category": "类金属",
+    "displayValue": "Z = 51 · [Kr] 4d¹⁰ 5s² 5p³ 类金属",
+    "quantity": {
+      "value": 51,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Sb",
+      "nameEn": "Antimony",
+      "period": 5,
+      "group": 15,
+      "block": "p",
+      "configuration": "[Kr] 4d10 5s2 5p3",
+      "valence": "4d10 5s2 5p3",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "锑位于第五周期 5p 段中点，三条 p 轨道各占一个电子。",
+      "note": "阶梯只表示填充次序，不表示 5p 三条轨道的能量差别。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "5p 区",
+      "锑"
+    ]
+  },
+  {
+    "id": "elements.te",
+    "title": "碲：第 52 个质子打破 5p 半满，把天平推向“得电子”",
+    "titleEn": "Tellurium",
+    "summary": "锑的 5p3 到碲的 5p4，新增电子必须配对，半满的交换稳定被削弱。第一电离能只升 0.366 eV、半径缩 10 pm，碲却因此从类金属中段滑向非金属一侧，价态开始偏向 −2。",
+    "dimension": "element",
+    "category": "类金属",
+    "displayValue": "Z = 52 · [Kr] 4d¹⁰ 5s² 5p⁴ 类金属",
+    "quantity": {
+      "value": 52,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Te",
+      "nameEn": "Tellurium",
+      "period": 5,
+      "group": 16,
+      "block": "p",
+      "configuration": "[Kr] 4d10 5s2 5p4",
+      "valence": "4d10 5s2 5p4",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "碲位于第五周期 5p 段右侧，三条 p 轨道里出现一对。",
+      "note": "阶梯只表示填充次序，不表示 5p 三条轨道的能量差别。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "5p 区",
+      "碲"
+    ]
+  },
+  {
+    "id": "elements.i",
+    "title": "碘：第 53 个质子把 5p 填到五个，只剩一个稳定同位素",
+    "titleEn": "Iodine",
+    "summary": "碲的 5p4 到碘的 5p5：半径缩小 8 pm，电负性升到 2.66，使碘强烈吸电子。5p 离闭壳只差一个电子，127I 是唯一稳定同位素。",
+    "dimension": "element",
+    "category": "卤素",
+    "displayValue": "Z = 53 · [Kr]4d¹⁰5s²5p⁵ 卤素",
+    "quantity": {
+      "value": 53,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "I",
+      "nameEn": "Iodine",
+      "period": 5,
+      "group": 17,
+      "block": "p",
+      "configuration": "[Kr] 4d10 5s2 5p5",
+      "valence": "4d10 5s2 5p5",
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "碘位于第五周期 5p 段的后半，离 5p6 只差一个电子。",
+      "note": "阶梯表示亚层容量与填充次序，不表示 5p 与 5s 的精确能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第五周期",
+      "5p 区",
+      "卤素"
+    ]
+  },
+  {
+    "id": "elements.xe",
+    "title": "氙：第 54 个质子合上 5p，把第二过渡系收进闭壳",
+    "titleEn": "Xenon",
+    "summary": "碘的 5p5 到氙的 5p6：补满 5p，电离能升到 12.130 eV，半径缩到 108 pm。4d5s5p 收尾，氙成为第五周期闭壳节点，九种稳定同位素。",
+    "dimension": "element",
+    "category": "闭壳节点",
+    "quantity": {
+      "value": 54,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "displayValue": "Z = 54 · [Kr]4d¹⁰5s²5p⁶ 闭壳",
+    "element": {
+      "symbol": "Xe",
+      "nameEn": "Xenon",
+      "period": 5,
+      "group": 18,
+      "block": "p",
+      "configuration": "[Kr] 4d10 5s2 5p6",
+      "valence": "4d10 5s2 5p6",
+      "hub": true,
+      "closedShell": 54,
+      "periodStart": 37,
+      "periodEnd": 54,
+      "level": "A"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "氙站在第五周期的终点，4d、5s、5p 三段全部填满。",
+      "note": "阶梯表示容量与填充次序，不表示 5p 与 6s 的实际能量高低。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "闭壳节点",
+      "第五周期",
+      "氙"
+    ]
+  },
+  {
+    "id": "elements.cs",
+    "title": "铯：第 55 个质子把电子推到 6s，也把周期表带进长周期",
+    "titleEn": "Caesium: the 55th proton sends an electron to 6s",
+    "dimension": "element",
+    "category": "碱金属",
+    "summary": "氙的 5p 已满，铯的新电子只能进入 6s；电离能从 12.130 eV 跌到 3.894 eV，半径从 108 pm 增到 298 pm，价电子被推到最外层。",
+    "quantity": {
+      "value": 55,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 55 · [Xe]6s¹ 碱金属",
+    "element": {
+      "symbol": "Cs",
+      "nameEn": "Caesium",
+      "period": 6,
+      "group": 1,
+      "block": "s",
+      "configuration": "[Xe] 6s1",
+      "valence": "6s1",
+      "level": "A",
+      "predicted": false
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第六级台阶起点 · 5p 之后新电子进入 6s",
+      "note": "阶梯表示壳层容量与填充次序，不表示 6s 与 4f、5d 的实际能量高低。"
+    },
+    "tags": [
+      "元素",
+      "第六周期",
+      "碱金属",
+      "铯"
+    ]
+  },
+  {
+    "id": "elements.ba",
+    "title": "钡：第 56 个质子把 6s 填满，也把 +2 氧化态钉死",
+    "titleEn": "Barium: the 56th proton fills 6s and locks in +2",
+    "dimension": "element",
+    "category": "碱土金属",
+    "summary": "铯的 6s 只有一颗，钡把 6s 填满；电离能从 3.894 eV 升到 5.212 eV，半径从 298 pm 缩到 253 pm，6s2 让 +2 占主导。",
+    "quantity": {
+      "value": 56,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 56 · [Xe]6s² 碱土金属",
+    "element": {
+      "symbol": "Ba",
+      "nameEn": "Barium",
+      "period": 6,
+      "group": 2,
+      "block": "s",
+      "configuration": "[Xe] 6s2",
+      "valence": "6s2",
+      "level": "A",
+      "predicted": false
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6s 亚层在钡这一格闭合",
+      "note": "6s2 闭合不等于整层闭壳，4f 与 5d 仍为下一格保留空位。"
+    },
+    "tags": [
+      "元素",
+      "第六周期",
+      "碱土金属",
+      "钡"
+    ]
+  },
+  {
+    "id": "elements.la",
+    "title": "镧：第 57 个质子先填 5d，从这一格开始镧系收缩",
+    "titleEn": "Lanthanum: the 57th proton fills 5d first",
+    "dimension": "element",
+    "category": "镧系起点",
+    "summary": "钡的 6s 已满，镧的新电子却落进 5d，形成 5d1 6s2；这是 4f 填充前的最后一格，也是镧系收缩的起点，半径 226 pm 充当基准。",
+    "quantity": {
+      "value": 57,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 57 · [Xe]5d¹6s² 镧系起点",
+    "element": {
+      "symbol": "La",
+      "nameEn": "Lanthanum",
+      "period": 6,
+      "group": 3,
+      "block": "f",
+      "configuration": "[Xe] 5d1 6s2",
+      "valence": "5d1 6s2",
+      "level": "A",
+      "predicted": false
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5d 先于 4f 被占据 · 镧系收缩的零点",
+      "note": "阶梯只表示填充次序，不表示 4f 与 5d 的实际能量差。"
+    },
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "镧"
+    ]
+  },
+  {
+    "id": "elements.ce",
+    "title": "铈：第 58 个质子第一次填进 4f，镧系收缩从这一格真正开始",
+    "titleEn": "Cerium",
+    "summary": "镧的 5d1 6s2 到铈的 4f1 5d1 6s2，新增电子钻进 4f，5d 仍保留一个。4f 屏蔽不良，半径一次缩 16 pm，镧系收缩由此启动；4f 与 5d 同时可动，也让铈能走到 +4。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 58 · [Xe] 4f¹ 5d¹ 6s² 镧系",
+    "quantity": {
+      "value": 58,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ce",
+      "nameEn": "Cerium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f1 5d1 6s2",
+      "valence": "4f1 5d1 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "铈位于镧系起点之后第一格，4f 开始接收电子。",
+      "note": "阶梯只表示填充次序，不表示 4f 与 5d 的精确能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "铈"
+    ]
+  },
+  {
+    "id": "elements.pr",
+    "title": "镨：第 59 个质子把 5d 收回去，4f 一次拿到三个电子",
+    "titleEn": "Praseodymium",
+    "summary": "铈的 4f1 5d1 6s2 到镨的 4f3 6s2：5d 那个电子退回 4f，新质子也进 4f，4f 从一跳到三。第一电离能降 0.077 eV，计算半径升到 247 pm，与收缩直觉相反，只能按口径读。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 59 · [Xe] 4f³ 6s² 镧系",
+    "quantity": {
+      "value": 59,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Pr",
+      "nameEn": "Praseodymium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f3 6s2",
+      "valence": "4f3 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "镨位于镧系第三格，5d 退出价层，4f 占据三席。",
+      "note": "阶梯只表示填充次序，不表示 4f 与 5d 的精确能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "镨"
+    ]
+  },
+  {
+    "id": "elements.nd",
+    "title": "钕：第 60 个质子把 4f 填到四个，磁性从这一格变得响亮",
+    "titleEn": "Neodymium",
+    "summary": "镨的 4f3 6s2 到钕的 4f4 6s2，新增电子进入 4f，5d 继续空着。半径从 247 pm 回落到 206 pm，第一电离能升 0.063 eV；四个平行自旋的 4f 电子，让钕的磁矩成为可观察的主角。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 60 · [Xe] 4f⁴ 6s² 镧系",
+    "quantity": {
+      "value": 60,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Nd",
+      "nameEn": "Neodymium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f4 6s2",
+      "valence": "4f4 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "钕位于镧系第四格，四条 4f 轨道各占一个电子。",
+      "note": "阶梯只表示填充次序，不表示 4f 轨道的空间取向。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "钕"
+    ]
+  },
+  {
+    "id": "elements.pm",
+    "title": "钷：第 61 个质子把 4f 填到五个，却没能把核留在稳定线上",
+    "titleEn": "Promethium",
+    "summary": "钕的 4f4 6s2 到钷的 4f5 6s2，电子变化很小：半径只缩 1 pm，电离能升 0.072 eV。真正的分界在核——钷无稳定同位素，¹⁴⁵Pm 半衰期 17.7 年，会电子俘获变成钕-145。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 61 · [Xe] 4f⁵ 6s² 镧系",
+    "quantity": {
+      "value": 61,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Pm",
+      "nameEn": "Promethium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f5 6s2",
+      "valence": "4f5 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "钷位于镧系第五格，4f 已有五个电子，核却没有稳定成员。",
+      "note": "阶梯只表示填充次序，不表示 4f 轨道的能量高低。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "钷"
+    ]
+  },
+  {
+    "id": "elements.sm",
+    "title": "钐：第 62 个质子把 4f 填到六个，二价通道在这里打开",
+    "titleEn": "Samarium",
+    "summary": "钷的 4f5 6s2 到钐的 4f6 6s2，4f 再添一个电子，距半满只差一步。电离能升 0.046 eV，计算半径回弹到 238 pm；4f6 让 Sm2+ 成为可停靠的价态，也让钐与无稳定核的钷形成对照。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 62 · [Xe] 4f⁶ 6s² 镧系",
+    "quantity": {
+      "value": 62,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Sm",
+      "nameEn": "Samarium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f6 6s2",
+      "valence": "4f6 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "钐位于镧系第六格，4f 已有六个电子，逼近半满。",
+      "note": "阶梯只表示填充次序，不表示 4f 轨道的能量高低。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "钐"
+    ]
+  },
+  {
+    "id": "elements.eu",
+    "title": "铕：第 63 个质子填满 4f 半壳，把 +2 价变成一种稳定选择",
+    "titleEn": "Europium",
+    "summary": "钐的 4f6 再加一个电子就是 4f7 半满壳；铕因此保住半满组态，二价离子异常稳定，电离能只微升，半径缩小 7 pm。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 63 · [Xe] 4f⁷6s² 镧系",
+    "quantity": {
+      "value": 63,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Eu",
+      "nameEn": "Europium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f7 6s2",
+      "valence": "4f7 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4f 在这里凑成半满 · 铕的二价化学由此开始",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "铕"
+    ]
+  },
+  {
+    "id": "elements.gd",
+    "title": "钆：第 64 个质子不进 4f，改填 5d，半满壳被打开一个缺口",
+    "titleEn": "Gadolinium",
+    "summary": "铕的 4f7 已经半满，钆的新电子却落进 5d，形成 4f7 5d1 6s2；电离能跳升 0.480 eV，半径反而增 2 pm。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 64 · [Xe] 4f⁷5d¹6s² 镧系",
+    "quantity": {
+      "value": 64,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Gd",
+      "nameEn": "Gadolinium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f7 5d1 6s2",
+      "valence": "4f7 5d1 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "半满之后再填 4f 不划算 · 新电子改走 5d",
+      "note": "阶梯只表示填充次序，不表示 4f 与 5d 的实际能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "钆"
+    ]
+  },
+  {
+    "id": "elements.tb",
+    "title": "铽：第 65 个质子退回 4f，把 5d 让了出去",
+    "titleEn": "Terbium",
+    "summary": "钆的 5d1 在铽这里消失，新电子回到 4f，形成 4f9 6s2；电离能回落 0.286 eV，电负性降 0.10，半径缩 8 pm。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 65 · [Xe] 4f⁹6s² 镧系",
+    "quantity": {
+      "value": 65,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Tb",
+      "nameEn": "Terbium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f9 6s2",
+      "valence": "4f9 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5d 只占了一格 · 铽把电子收回 4f",
+      "note": "阶梯只表示填充次序，不表示 4f 与 5d 的实际能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "铽"
+    ]
+  },
+  {
+    "id": "elements.dy",
+    "title": "镝：第 66 个质子继续填 4f，磁各向异性从这一格开始放大",
+    "titleEn": "Dysprosium",
+    "summary": "铽的 4f9 再进一个电子成为 4f10 6s2；半径反而增 3 pm，电负性跳升 0.12，4f 的角动量把磁矩锁向晶格。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 66 · [Xe] 4f¹⁰6s² 镧系",
+    "quantity": {
+      "value": 66,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Dy",
+      "nameEn": "Dysprosium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f10 6s2",
+      "valence": "4f10 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4f 越过半满之后 · 镝的半径不再单调下降",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "镝"
+    ]
+  },
+  {
+    "id": "elements.ho",
+    "title": "钬：第 67 个质子加进 4f，把未成对电子堆到很突出的一档",
+    "titleEn": "Holmium",
+    "summary": "镝的 4f10 再加一个电子成为 4f11 6s2；电离能升 0.083 eV，半径只缩 2 pm，4f 的轨道与自旋贡献同向叠加。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 67 · [Xe] 4f¹¹6s² 镧系",
+    "quantity": {
+      "value": 67,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ho",
+      "nameEn": "Holmium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f11 6s2",
+      "valence": "4f11 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4f 过半之后 · 钬的价层几乎只剩 4f 开放壳",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "钬"
+    ]
+  },
+  {
+    "id": "elements.er",
+    "title": "铒：第 68 个质子让 4f 只剩两个空位，谱线也变得更“内向”",
+    "titleEn": "Erbium",
+    "summary": "钬的 4f11 再进一个电子成为 4f12 6s2；半径与钬同为 226 pm，电离能升 0.086 eV，4f 屏蔽让发光谱线又窄又稳。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 68 · [Xe] 4f¹²6s² 镧系",
+    "quantity": {
+      "value": 68,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Er",
+      "nameEn": "Erbium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f12 6s2",
+      "valence": "4f12 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4f 只剩两个空位 · 铒的半径停在 226 pm",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "铒"
+    ]
+  },
+  {
+    "id": "elements.tm",
+    "title": "铥：第 69 个质子把 4f 填到只剩一个空位",
+    "titleEn": "Thulium",
+    "summary": "铒的 4f12 再进一个电子成为 4f13 6s2；电离能升 0.076 eV，半径缩 4 pm，一空位让铥成为“空穴版铈”。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 69 · [Xe] 4f¹³6s² 镧系",
+    "quantity": {
+      "value": 69,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Tm",
+      "nameEn": "Thulium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f13 6s2",
+      "valence": "4f13 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4f 只差一个电子 · 铥站在满壳前一格",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "铥"
+    ]
+  },
+  {
+    "id": "elements.yb",
+    "title": "镱：第 70 个质子封住 4f，把 +2 价重新推回台面",
+    "titleEn": "Ytterbium",
+    "summary": "铥的 4f13 再进一个电子，4f 闭合成 4f14 6s2；半径与铥同为 222 pm，电负性却从 1.25 掉到 1.10。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 70 · [Xe] 4f¹⁴6s² 镧系",
+    "quantity": {
+      "value": 70,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Yb",
+      "nameEn": "Ytterbium",
+      "period": 6,
+      "group": null,
+      "block": "f",
+      "configuration": "[Xe] 4f14 6s2",
+      "valence": "4f14 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4f 在这里闭合 · 镱的二价与三价只差一个电子",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "镱"
+    ]
+  },
+  {
+    "id": "elements.lu",
+    "title": "镥：第 71 个质子无处可去，只能回到 5d",
+    "titleEn": "Lutetium",
+    "summary": "镱的 4f14 已经填满，镥的新电子只能进 5d，形成 4f14 5d1 6s2；电离能掉 0.828 eV，半径缩到 217 pm。",
+    "dimension": "element",
+    "category": "镧系",
+    "displayValue": "Z = 71 · [Xe] 4f¹⁴5d¹6s² 镧系",
+    "quantity": {
+      "value": 71,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Lu",
+      "nameEn": "Lutetium",
+      "period": 6,
+      "group": 3,
+      "block": "d",
+      "configuration": "[Xe] 4f14 5d1 6s2",
+      "valence": "4f14 5d1 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4f 封顶之后 · 第 71 个电子回到 5d",
+      "note": "阶梯只表示填充次序，不表示 4f 与 5d 的实际能量差。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "镧系",
+      "镥"
+    ]
+  },
+  {
+    "id": "elements.hf",
+    "title": "铪：第 72 个质子接过 4f¹⁴ 的遗产，尺寸几乎不再长大",
+    "titleEn": "Hafnium",
+    "summary": "镥的 4f14 5d1 再加一个电子成为 5d2；电离能猛增 1.399 eV，半径缩到 208 pm，铪因此与同族锆几乎同尺寸。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 72 · [Xe] 4f¹⁴5d²6s² 过渡金属",
+    "quantity": {
+      "value": 72,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Hf",
+      "nameEn": "Hafnium",
+      "period": 6,
+      "group": 4,
+      "block": "d",
+      "configuration": "[Xe] 4f14 5d2 6s2",
+      "valence": "4f14 5d2 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4f14 退成核心 · 铪的尺寸被收缩压住",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "过渡金属",
+      "铪"
+    ]
+  },
+  {
+    "id": "elements.ta",
+    "title": "钽：第 73 个质子把 5d 填到 5d³，半径继续缩而电离能回升",
+    "titleEn": "Tantalum",
+    "summary": "铪到钽新增电子进入 5d，构型变为 5d³ 6s²；半径减 8 pm，第一电离能升 1.062 eV，电负性升 0.20，核来源为 r 过程。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 73 · [Xe] 4f¹⁴5d³6s² 过渡金属",
+    "quantity": {
+      "value": 73,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ta",
+      "nameEn": "Tantalum",
+      "period": 6,
+      "group": 5,
+      "block": "d",
+      "configuration": "[Xe] 4f14 5d3 6s2",
+      "valence": "4f14 5d3 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5d 继续填充 · 由 5d² 到 5d³",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "5d 区",
+      "钽"
+    ]
+  },
+  {
+    "id": "elements.w",
+    "title": "钨：第 74 个质子填进 5d，4f 的收缩把它压成难熔金属",
+    "titleEn": "Tungsten: the 74th proton fills 5d under a contracted 4f shell",
+    "dimension": "element",
+    "category": "5d 过渡金属",
+    "summary": "钽的 5d 添一个电子成为 5d4 6s2；4f14 屏蔽不足与 6s 收缩叠加，半径再减 7 pm，电负性从 1.50 升到 2.36，5d 成键更强。",
+    "quantity": {
+      "value": 74,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 74 · [Xe]4f¹⁴5d⁴6s²",
+    "element": {
+      "symbol": "W",
+      "nameEn": "Tungsten",
+      "period": 6,
+      "group": 6,
+      "block": "d",
+      "configuration": "[Xe] 4f14 5d4 6s2",
+      "valence": "4f14 5d4 6s2",
+      "level": "A",
+      "predicted": false
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "4f 填满之后 · 5d 在收缩中继续填充",
+      "note": "阶梯表示填充次序，不表示 5d 与 6s 的实际能量高低。"
+    },
+    "tags": [
+      "元素",
+      "第六周期",
+      "5d 区",
+      "钨"
+    ]
+  },
+  {
+    "id": "elements.re",
+    "title": "铼：第 75 个质子把 5d 推到半满，电离能与电负性却一起掉头",
+    "titleEn": "Rhenium",
+    "summary": "钨到铼新增电子进入 5d，5d 达半满；半径减 5 pm，第一电离能减 0.104 eV，电负性减 0.46，核来源为 r 过程。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 75 · [Xe] 4f¹⁴5d⁵6s² 过渡金属",
+    "quantity": {
+      "value": 75,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Re",
+      "nameEn": "Rhenium",
+      "period": 6,
+      "group": 7,
+      "block": "d",
+      "configuration": "[Xe] 4f14 5d5 6s2",
+      "valence": "4f14 5d5 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5d 到达半满 · 五个轨道各占一个电子",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "5d 区",
+      "铼"
+    ]
+  },
+  {
+    "id": "elements.os",
+    "title": "锇：第 76 个质子越过 5d 半满，电离能抬升而半径只缩 3 pm",
+    "titleEn": "Osmium",
+    "summary": "铼到锇新增电子进入 5d 并开始配对；半径减 3 pm，第一电离能升 0.829 eV，电负性升 0.30，核来源同为 r 过程。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 76 · [Xe] 4f¹⁴5d⁶6s² 过渡金属",
+    "quantity": {
+      "value": 76,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Os",
+      "nameEn": "Osmium",
+      "period": 6,
+      "group": 8,
+      "block": "d",
+      "configuration": "[Xe] 4f14 5d6 6s2",
+      "valence": "4f14 5d6 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "越过 5d 半满 · 出现第一对配对电子",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "5d 区",
+      "锇"
+    ]
+  },
+  {
+    "id": "elements.ir",
+    "title": "铱：第 77 个质子继续填 5d，电负性停住而电离能仍升",
+    "titleEn": "Iridium",
+    "summary": "锇到铱新增电子进入 5d，构型变为 5d⁷ 6s²；半径减 5 pm，第一电离能升 0.415 eV，电负性停在 2.20，核来源为 r 过程。",
+    "dimension": "element",
+    "category": "过渡金属",
+    "displayValue": "Z = 77 · [Xe] 4f¹⁴5d⁷6s² 过渡金属",
+    "quantity": {
+      "value": 77,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ir",
+      "nameEn": "Iridium",
+      "period": 6,
+      "group": 9,
+      "block": "d",
+      "configuration": "[Xe] 4f14 5d7 6s2",
+      "valence": "4f14 5d7 6s2",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5d 继续配对填充 · 电负性进入平台",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "5d 区",
+      "铱"
+    ]
+  },
+  {
+    "id": "elements.pt",
+    "title": "铂：第 78 个质子触发 5d/6s 重排，把惰性变成催化",
+    "titleEn": "Platinum: the 78th proton triggers a 5d/6s rearrangement",
+    "dimension": "element",
+    "category": "贵金属",
+    "summary": "铱到铂重排为 5d9 6s1；6s 压紧、5d 扩张，电离能微降 0.104 eV，半径只缩 3 pm，接近满壳的构型带来催化活性。",
+    "quantity": {
+      "value": 78,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 78 · [Xe]4f¹⁴5d⁹6s¹",
+    "element": {
+      "symbol": "Pt",
+      "nameEn": "Platinum",
+      "period": 6,
+      "group": 10,
+      "block": "d",
+      "configuration": "[Xe] 4f14 5d9 6s1",
+      "valence": "4f14 5d9 6s1",
+      "level": "A",
+      "predicted": false
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5d 接近填满 · 一个 6s 电子转入 5d",
+      "note": "重排为基态构型示意，不表示 5d 与 6s 的实际能量曲线。"
+    },
+    "tags": [
+      "元素",
+      "第六周期",
+      "5d 区",
+      "铂"
+    ]
+  },
+  {
+    "id": "elements.au",
+    "title": "金：第 79 个质子填满 5d，相对论把它的颜色与惰性一起改写",
+    "titleEn": "Gold: the 79th proton completes 5d",
+    "dimension": "element",
+    "category": "贵金属",
+    "summary": "铂的 5d 添一个电子，金成为 5d10 6s1；电负性从 2.28 升到 2.54，可见光吸收让它呈黄色，单一同位素 197Au 暴露 r 过程通道之窄。",
+    "quantity": {
+      "value": 79,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 79 · [Xe]4f¹⁴5d¹⁰6s¹",
+    "element": {
+      "symbol": "Au",
+      "nameEn": "Gold",
+      "period": 6,
+      "group": 11,
+      "block": "d",
+      "configuration": "[Xe] 4f14 5d10 6s1",
+      "valence": "4f14 5d10 6s1",
+      "level": "A",
+      "predicted": false
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5d 填满 · 6s 仍留一颗电子",
+      "note": "颜色来自 5d 与 6s 之间的跃迁示意，不按实际吸收波长绘制。"
+    },
+    "tags": [
+      "元素",
+      "第六周期",
+      "5d 区",
+      "金"
+    ]
+  },
+  {
+    "id": "elements.hg",
+    "title": "汞：第 80 个质子闭合 6s，相对论把它压成液态金属",
+    "titleEn": "Mercury: the 80th proton closes 6s",
+    "dimension": "element",
+    "category": "6s 闭壳金属",
+    "summary": "金的 6s 添一个电子，汞成为 5d10 6s2；6s 闭壳与相对论收缩让电离能陡升 1.213 eV，金属键被削弱，汞因此在常温下呈液态。",
+    "quantity": {
+      "value": 80,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 80 · [Xe]4f¹⁴5d¹⁰6s² 6s 闭壳",
+    "element": {
+      "symbol": "Hg",
+      "nameEn": "Mercury",
+      "period": 6,
+      "group": 12,
+      "block": "d",
+      "configuration": "[Xe] 4f14 5d10 6s2",
+      "valence": "4f14 5d10 6s2",
+      "level": "A",
+      "predicted": false
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5d10 6s2 收尾 · 6s 亚层闭合",
+      "note": "6s2 闭合不等于整层闭壳，6p 仍为下一周期保留空位。"
+    },
+    "tags": [
+      "元素",
+      "第六周期",
+      "6s 闭壳",
+      "汞"
+    ]
+  },
+  {
+    "id": "elements.tl",
+    "title": "铊：第 81 个质子放出一个 6p 电子，把 6s² 惰性对暴露出来",
+    "titleEn": "Thallium",
+    "summary": "汞到铊新增电子进入 6p；半径减 15 pm，第一电离能骤减 4.329 eV，电负性减 0.38，6s² 惰性对成为化学主题。",
+    "dimension": "element",
+    "category": "主族金属",
+    "displayValue": "Z = 81 · [Xe] 4f¹⁴5d¹⁰6s²6p¹ 主族金属",
+    "quantity": {
+      "value": 81,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Tl",
+      "nameEn": "Thallium",
+      "period": 6,
+      "group": 13,
+      "block": "p",
+      "configuration": "[Xe] 4f14 5d10 6s2 6p1",
+      "valence": "4f14 5d10 6s2 6p1",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6p 起点 · 6s² 被压成惰性对",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "p 区",
+      "铊"
+    ]
+  },
+  {
+    "id": "elements.pb",
+    "title": "铅：第 82 个质子填出 6p2，惰性电子对与衰变终点在此汇合",
+    "titleEn": "Lead: the 82nd proton adds 6p2 at the end of the decay chains",
+    "dimension": "element",
+    "category": "惰性电子对",
+    "summary": "铊的 6p 添一个电子，铅成为 6s2 6p2；6s2 形成惰性电子对，使 +2 比 +4 常见，四种稳定同位素让铅成为衰变链终点。",
+    "quantity": {
+      "value": 82,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 82 · [Xe]4f¹⁴5d¹⁰6s²6p²",
+    "element": {
+      "symbol": "Pb",
+      "nameEn": "Lead",
+      "period": 6,
+      "group": 14,
+      "block": "p",
+      "configuration": "[Xe] 4f14 5d10 6s2 6p2",
+      "valence": "4f14 5d10 6s2 6p2",
+      "level": "A",
+      "predicted": false
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6p 开始填充 · 6s2 已形成惰性电子对",
+      "note": "6s2 与 6p2 的相对位置为构型示意，不表示实际轨道形状。"
+    },
+    "tags": [
+      "元素",
+      "第六周期",
+      "p 区",
+      "铅"
+    ]
+  },
+  {
+    "id": "elements.bi",
+    "title": "铋：第 83 个质子补到 6p³ 半满，N/Z 第一次不再增加",
+    "titleEn": "Bismuth",
+    "summary": "铅到铋新增电子进入 6p，6p 达半满；半径减 11 pm，第一电离能减 0.131 eV，电负性升 0.15，中子数停在 126。",
+    "dimension": "element",
+    "category": "主族金属",
+    "displayValue": "Z = 83 · [Xe] 4f¹⁴5d¹⁰6s²6p³ 主族金属",
+    "quantity": {
+      "value": 83,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Bi",
+      "nameEn": "Bismuth",
+      "period": 6,
+      "group": 15,
+      "block": "p",
+      "configuration": "[Xe] 4f14 5d10 6s2 6p3",
+      "valence": "4f14 5d10 6s2 6p3",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6p 半满 · 中子数停在中子闭壳 126",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "p 区",
+      "铋"
+    ]
+  },
+  {
+    "id": "elements.po",
+    "title": "钋：第 84 个质子把 6p 推过半满，也把稳定同位素清零",
+    "titleEn": "Polonium",
+    "summary": "铋到钋新增电子进入 6p 并开始配对；半径减 8 pm，第一电离能升 1.131 eV，电负性几乎不变，钋无稳定同位素。",
+    "dimension": "element",
+    "category": "类金属",
+    "displayValue": "Z = 84 · [Xe] 4f¹⁴5d¹⁰6s²6p⁴ 类金属",
+    "quantity": {
+      "value": 84,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Po",
+      "nameEn": "Polonium",
+      "period": 6,
+      "group": 16,
+      "block": "p",
+      "configuration": "[Xe] 4f14 5d10 6s2 6p4",
+      "valence": "4f14 5d10 6s2 6p4",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6p 越过半满 · 稳定核在这一格终止",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "p 区",
+      "钋"
+    ]
+  },
+  {
+    "id": "elements.at",
+    "title": "砹：第 85 个质子补到 6p⁵，卤素走到最不稳定的一端",
+    "titleEn": "Astatine",
+    "summary": "钋到砹新增电子进入 6p，构型变为 6p⁵；半径减 8 pm，第一电离能升 0.901 eV，电负性升 0.20，砹无稳定同位素。",
+    "dimension": "element",
+    "category": "卤素",
+    "displayValue": "Z = 85 · [Xe] 4f¹⁴5d¹⁰6s²6p⁵ 卤素",
+    "quantity": {
+      "value": 85,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "At",
+      "nameEn": "Astatine",
+      "period": 6,
+      "group": 17,
+      "block": "p",
+      "configuration": "[Xe] 4f14 5d10 6s2 6p5",
+      "valence": "4f14 5d10 6s2 6p5",
+      "level": "B"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6p 差一个满壳 · 位置确定而存在短暂",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第六周期",
+      "p 区",
+      "砹"
+    ]
+  },
+  {
+    "id": "elements.rn",
+    "title": "第六层结束：氡与 4f5d6s6p 闭壳",
+    "titleEn": "Closed shell 86: radon and the filled 4f5d6s6p",
+    "dimension": "element",
+    "category": "闭壳节点",
+    "summary": "第六周期第一次插入 4f 的十四个位置，镧系收缩让 6s 电子被拉得更紧。氡是这个长周期的终点，也是唯一一个主要由放射性衰变链供应的闭壳元素。",
+    "quantity": {
+      "value": 86,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 86 · [Xe]4f¹⁴5d¹⁰6s²6p⁶ 闭壳",
+    "element": {
+      "symbol": "Rn",
+      "nameEn": "Radon",
+      "period": 6,
+      "group": 18,
+      "block": "p",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6",
+      "valence": "4f14 5d10 6s2 6p6",
+      "hub": true,
+      "closedShell": 86,
+      "periodStart": 55,
+      "periodEnd": 86,
+      "predicted": false,
+      "level": "C"
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "以中性基态原子的原子序数 Z 为坐标；本页讨论 4f、5d、6s、6p 构成的第六周期，不把氡的短半衰期同位素当作单一稳定核素。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第六级台阶 · 4f 插入后的长周期",
+      "note": "阶梯宽度表示容量，镧系收缩的实际幅度不按比例绘制。"
+    },
+    "tags": [
+      "闭壳节点",
+      "第六周期",
+      "氡",
+      "镧系收缩"
+    ]
+  },
+  {
+    "id": "elements.fr",
+    "title": "钫：第 87 个质子开新层，7s¹ 与无稳定同位素同时出现",
+    "titleEn": "Francium",
+    "summary": "氡的 6p⁶ 闭合后，第 87 个电子只能开新层进入 7s，第七周期从钫开始；第一电离能从 10.748 eV 跌到 3.938 eV，半径与氡口径不同不能相减，钫没有稳定同位素，只能以痕量或人工合成出现。",
+    "dimension": "element",
+    "category": "碱金属",
+    "displayValue": "Z = 87 · [Rn]7s¹ 碱金属",
+    "quantity": {
+      "value": 87,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Fr",
+      "nameEn": "Francium",
+      "period": 7,
+      "group": 1,
+      "block": "s",
+      "configuration": "[Rn] 7s1",
+      "valence": "7s1",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，钫的 348 pm 半径属范德华口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶的第一格，7s 刚刚打开。",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "s 区",
+      "钫"
+    ]
+  },
+  {
+    "id": "elements.ra",
+    "title": "镭：第 88 个质子把 7s 补成一对，镭仍留不住一个稳定核",
+    "titleEn": "Radium",
+    "summary": "钫的 7s¹ 补成 7s²，镭把 7s 闭合，7s 电子更难失去；电离能升 1.341 eV，电负性升 0.11，半径因范德华与经验值口径不同不可相减，镭没有稳定同位素，只由天然衰变链补给，天然存在但自身留不住。",
+    "dimension": "element",
+    "category": "碱土金属",
+    "displayValue": "Z = 88 · [Rn]7s² 碱土金属",
+    "quantity": {
+      "value": 88,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ra",
+      "nameEn": "Radium",
+      "period": 7,
+      "group": 2,
+      "block": "s",
+      "configuration": "[Rn] 7s2",
+      "valence": "7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，半径为经验值口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶的第二格，7s 在此闭合。",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "s 区",
+      "镭"
+    ]
+  },
+  {
+    "id": "elements.ac",
+    "title": "锕：第 89 个质子先进 6d，锕系从这里得名却还没打开 5f",
+    "titleEn": "Actinium",
+    "summary": "镭的 7s² 之外，锕把新电子放进 6d，成为 6d¹7s²，5f 还是空的；电离能反降 0.107 eV，半径缩 20 pm，锕系由此得名，锕没有稳定同位素，只作为铀-235 衰变链的中间核出现，不是 5f 占据的起点，天然存在也只是链上过客。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 89 · [Rn]6d¹7s² 锕系",
+    "quantity": {
+      "value": 89,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ac",
+      "nameEn": "Actinium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 6d1 7s2",
+      "valence": "6d1 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，半径为经验值口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶的第三格，6d 先于 5f 被填入。",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "锕"
+    ]
+  },
+  {
+    "id": "elements.th",
+    "title": "钍：第 90 个质子把 6d 填到两个，5f 打开前的最后一格",
+    "titleEn": "Thorium",
+    "summary": "锕的 6d¹ 补成 6d²，钍在 5f 打开前把 6d 填到两个；电离能升 0.912 eV，半径缩 15 pm，钍-232 虽天然存在，却仍是没有稳定同位素的放射性核素，最终来自 r 过程，是 6d 收尾的一格，5f 在这一格仍未开启。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 90 · [Rn]6d²7s² 锕系",
+    "quantity": {
+      "value": 90,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Th",
+      "nameEn": "Thorium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 6d2 7s2",
+      "valence": "6d2 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，半径为经验值口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶的第四格，6d 收尾而 5f 尚未开启。",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "钍"
+    ]
+  },
+  {
+    "id": "elements.pa",
+    "title": "镤：第 91 个质子第一次占住 5f，锕系才真正进入 f 区",
+    "titleEn": "Protactinium",
+    "summary": "钍的 6d² 变成 5f²6d¹，镤第一次把电子放进 5f，6d 同时减少一个电子，锕系到这一格才真正进入 f 区；电离能降 0.197 eV，半径不变，天然镤只来自铀-235 衰变链，没有稳定同位素，5f 首次占据。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 91 · [Rn]5f²6d¹7s² 锕系",
+    "quantity": {
+      "value": 91,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Pa",
+      "nameEn": "Protactinium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f2 6d1 7s2",
+      "valence": "5f2 6d1 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，半径为经验值口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶的第五格，5f 在这个位置第一次被占据。",
+      "note": "阶梯只表示填充次序，不表示 5f 与 6d 的真实能量曲线。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "镤"
+    ]
+  },
+  {
+    "id": "elements.u",
+    "title": "铀：第 92 个质子填进 5f，5f/6d 交错与无稳定同位素同时出现",
+    "titleEn": "Uranium: the 92nd proton enters 5f",
+    "dimension": "element",
+    "category": "锕系",
+    "summary": "镤的 5f 添一个电子，铀成为 5f3 6d1 7s2；5f 与 6d 交错带来多种氧化态，它没有稳定同位素，238U 半衰期为 4.468×10⁹ 年。",
+    "quantity": {
+      "value": 92,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 92 · [Rn]5f³6d¹7s²",
+    "element": {
+      "symbol": "U",
+      "nameEn": "Uranium",
+      "period": 7,
+      "group": 3,
+      "block": "f",
+      "configuration": "[Rn] 5f3 6d1 7s2",
+      "valence": "5f3 6d1 7s2",
+      "level": "A",
+      "predicted": false
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，半径为经验值而非计算值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5f 与 6d 交错 · 7s 保持闭合",
+      "note": "阶梯表示填充次序，不表示 5f 与 6d 的实际能量曲线。"
+    },
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "铀"
+    ]
+  },
+  {
+    "id": "elements.np",
+    "title": "镎：第 93 个质子把 5f 推到四个，也把元素带过天然边界",
+    "titleEn": "Neptunium",
+    "summary": "铀的 5f³ 再添一个电子成 5f⁴，镎跨过天然与人工的边界，5f 已连续填充；电离能仅升 0.071 eV，半径不变，天然只有痕量，没有稳定同位素，实际样品主要来自反应堆中子俘获。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 93 · [Rn]5f⁴6d¹7s² 锕系",
+    "quantity": {
+      "value": 93,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Np",
+      "nameEn": "Neptunium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f4 6d1 7s2",
+      "valence": "5f4 6d1 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，半径为经验值口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶的第七格，5f 连续填充穿过天然边界。",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "镎"
+    ]
+  },
+  {
+    "id": "elements.pu",
+    "title": "钚：第 94 个质子清空 6d，把 5f 推到六个",
+    "titleEn": "Plutonium",
+    "summary": "镎的 5f⁴6d¹ 转为 5f⁶，钚把 6d 电子也收进 5f，6d 在这一格被清空；电离能降 0.205 eV，电负性降 0.08，半径不变，天然只剩 r 过程痕量，实际来源是反应堆，无稳定同位素，5f 已接近半满，化学行为更复杂。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 94 · [Rn]5f⁶7s² 锕系",
+    "quantity": {
+      "value": 94,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Pu",
+      "nameEn": "Plutonium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f6 7s2",
+      "valence": "5f6 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，半径为经验值口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶的第八格，6d 清空而 5f 接近半满。",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "钚"
+    ]
+  },
+  {
+    "id": "elements.am",
+    "title": "镅：第 95 个质子把 5f 推到半满，也把来源彻底交给反应堆",
+    "titleEn": "Americium",
+    "summary": "钚的 5f⁶ 补成 5f⁷，镅把 5f 推到半满，5f 电子更难参与成键；电离能降 0.069 eV，电负性降 0.15，半径不变，只由反应堆中子俘获产生，没有稳定同位素，也不再保留天然来源，5f 恰好半满。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 95 · [Rn]5f⁷7s² 锕系",
+    "quantity": {
+      "value": 95,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Am",
+      "nameEn": "Americium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f7 7s2",
+      "valence": "5f7 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，半径为经验值口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶的第九格，5f 在这里刚好填到半满。",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "镅"
+    ]
+  },
+  {
+    "id": "elements.cm",
+    "title": "锔：第 96 个质子绕过 5f，把电子放回 6d",
+    "titleEn": "Curium",
+    "summary": "镅的 5f⁷ 之后，锔把新电子放进 6d 而非 5f，5f 保持半满；电离能升 0.031 eV，半径反而加 1 pm，完全人工合成，没有稳定同位素，反应堆之外还要靠加速器，这正是 5f 半满后 6d 回归的现象。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 96 · [Rn]5f⁷6d¹7s² 锕系",
+    "quantity": {
+      "value": 96,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Cm",
+      "nameEn": "Curium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f7 6d1 7s2",
+      "valence": "5f7 6d1 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，半径为经验值口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶的第十格，5f 半满后 6d 重新被占据。",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "锔"
+    ]
+  },
+  {
+    "id": "elements.bk",
+    "title": "锫：第 97 个质子把 6d 的电子收回 5f",
+    "titleEn": "Berkelium",
+    "summary": "锔的 5f7 6d1 7s2 变成锫的 5f9 7s2，6d 电子回落到 5f；电离能升高 0.207 eV，无公认原子半径，电负性 1.30 仅为文献估算。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 97 · [Rn]5f⁹7s² 锕系",
+    "quantity": {
+      "value": 97,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Bk",
+      "nameEn": "Berkelium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f9 7s2",
+      "valence": "5f9 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；半径与电离能为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期 · 5f 第九格",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸；锫无公认原子半径。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "锫"
+    ]
+  },
+  {
+    "id": "elements.cf",
+    "title": "锎：第 98 个质子继续填 5f，6d 保持空置",
+    "titleEn": "Californium",
+    "summary": "锫的 5f9 7s2 补成锎的 5f10 7s2，新增电子进入 5f；电离能升高 0.072 eV，无公认原子半径，电负性 1.30 为文献估算。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 98 · [Rn]5f¹⁰7s² 锕系",
+    "quantity": {
+      "value": 98,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Cf",
+      "nameEn": "Californium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f10 7s2",
+      "valence": "5f10 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；半径与电离能为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期 · 5f 第十格",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸；锎无公认原子半径。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "锎"
+    ]
+  },
+  {
+    "id": "elements.es",
+    "title": "锿：第 99 个质子把 5f 填到十一，6d 仍不参与",
+    "titleEn": "Einsteinium",
+    "summary": "锎的 5f10 7s2 补成锿的 5f11 7s2，5f 继续逐个填充；电离能升高 0.115 eV，无公认原子半径，电负性为文献估算 1.30。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 99 · [Rn]5f¹¹7s² 锕系",
+    "quantity": {
+      "value": 99,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Es",
+      "nameEn": "Einsteinium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f11 7s2",
+      "valence": "5f11 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；半径与电离能为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期 · 5f 第十一格",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸；锿无公认原子半径。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "锿"
+    ]
+  },
+  {
+    "id": "elements.fm",
+    "title": "镄：第 100 个质子把 5f 填到十二，化学退到 +2 价",
+    "titleEn": "Fermium",
+    "summary": "锿的 5f11 7s2 补成镄的 5f12 7s2，5f 接近填满；电离能升高 0.082 eV，无公认原子半径，电负性为文献估算 1.30。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 100 · [Rn]5f¹²7s² 锕系",
+    "quantity": {
+      "value": 100,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Fm",
+      "nameEn": "Fermium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f12 7s2",
+      "valence": "5f12 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；半径与电离能为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期 · 5f 第十二格",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸；镄无公认原子半径。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "镄"
+    ]
+  },
+  {
+    "id": "elements.md",
+    "title": "钔：第 101 个质子把 5f 填到十三，只剩一个空位",
+    "titleEn": "Mendelevium",
+    "summary": "镄的 5f12 7s2 补成钔的 5f13 7s2，5f 只剩一个空位；电离能升高 0.083 eV，无公认原子半径，电负性为文献估算 1.30。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 101 · [Rn]5f¹³7s² 锕系",
+    "quantity": {
+      "value": 101,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Md",
+      "nameEn": "Mendelevium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f13 7s2",
+      "valence": "5f13 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；半径与电离能为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期 · 5f 第十三格",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸；钔无公认原子半径。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "钔"
+    ]
+  },
+  {
+    "id": "elements.no",
+    "title": "锘：第 102 个质子填满 5f，亚层在此收尾",
+    "titleEn": "Nobelium",
+    "summary": "钔的 5f13 7s2 补成锘的 5f14 7s2，5f 就此填满；电离能升高 0.073 eV，无公认原子半径，电负性为文献估算 1.30。",
+    "dimension": "element",
+    "category": "锕系",
+    "displayValue": "Z = 102 · [Rn]5f¹⁴7s² 锕系",
+    "quantity": {
+      "value": 102,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "No",
+      "nameEn": "Nobelium",
+      "period": 7,
+      "group": null,
+      "block": "f",
+      "configuration": "[Rn] 5f14 7s2",
+      "valence": "5f14 7s2",
+      "level": "C"
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；半径与电离能为孤立原子口径。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期 · 5f 第十四格，亚层封顶",
+      "note": "阶梯只表示填充次序，不表示电子云真实尺寸；锘无公认原子半径。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "锕系",
+      "锘"
+    ]
+  },
+  {
+    "id": "elements.lr",
+    "title": "铹：第 103 个质子不进 6d，而是把 7p 打开",
+    "titleEn": "Lawrencium",
+    "summary": "锘的 5f14 7s2 已经闭合，铹多出的电子按相对论计算进入 7p 而非 6d；第一电离能只有 4.871 eV，电负性 1.30 属估算，半径无公认值；两者都无稳定同位素，第三族归属只能靠计算讨论。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 103 · [Rn]5f¹⁴7s²7p¹（估算）",
+    "quantity": {
+      "value": 103,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Lr",
+      "nameEn": "Lawrencium",
+      "period": 7,
+      "group": 3,
+      "block": "d",
+      "configuration": "[Rn] 5f14 7s2 7p1",
+      "valence": "5f14 7s2 7p1",
+      "level": "C",
+      "predicted": false
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能与电负性为文献估算，原子半径无公认值，构型为理论预期。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5f 封顶之后 · 第 103 个电子进入 7p",
+      "note": "阶梯只表示填充次序；铹的 7p1 构型与数值均为理论或文献估算，不是实测结果。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "超重元素",
+      "铹"
+    ]
+  },
+  {
+    "id": "elements.rf",
+    "title": "鑪：第 104 个质子回到 6d，超锕系从这一格开始",
+    "titleEn": "Rutherfordium",
+    "summary": "铹的 7p1 之后，鑪的新电子回到 6d，构型变为 5f14 6d2 7s2，与铪同族；它的 6.011 eV 电离能只是预测值，半径与电负性都没有实验数据；这一格开启超锕系，电子性质却只能由相对论计算给出。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 104 · [Rn]5f¹⁴6d²7s²（预测）",
+    "quantity": {
+      "value": 104,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Rf",
+      "nameEn": "Rutherfordium",
+      "period": 7,
+      "group": 4,
+      "block": "d",
+      "configuration": "[Rn] 5f14 6d2 7s2",
+      "valence": "5f14 6d2 7s2",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；超重元素的电离能为理论预测或估算，半径与电负性无值。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "回到 6d · 第 104 个电子重新打开 d 壳",
+      "note": "阶梯只表示填充次序；鑪的构型与性质为理论预测，不是实验测定。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "超重元素",
+      "鑪",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.db",
+    "title": "105 号：6d³ 让 𬭊 站到第五族，却没有一个可测的电离能",
+    "titleEn": "Dubnium",
+    "summary": "鑪之后，𬭊的 6d 电子增加到三个，构型为 5f14 6d3 7s2，落在第五族；电离能、半径、电负性全部没有实验值，只能按理论趋势定性比较，尚无光谱或溶液实验验证，不能当作实测数据。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 105 · [Rn]5f¹⁴6d³7s²（预测）",
+    "quantity": {
+      "value": 105,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Db",
+      "nameEn": "Dubnium",
+      "period": 7,
+      "group": 5,
+      "block": "d",
+      "configuration": "[Rn] 5f14 6d3 7s2",
+      "valence": "5f14 6d3 7s2",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能、半径、电负性均为理论预测口径，无实验测定。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6d³ · 第五族的计算构型",
+      "note": "阶梯只表示填充次序；𬭊的构型与性质为理论预测，不是实验测定。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "超重元素",
+      "𬭊",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.sg",
+    "title": "106 号：6d⁴ 把 𬭛 推进第六族，同族是钨",
+    "titleEn": "Seaborgium",
+    "summary": "𬭊的 6d3 再加一个电子成为 6d4，𬭛落在第六族，与钨同列；它的电离能、半径与电负性仍无实验值，所有性质只能按理论趋势描述，单原子实验只能借挥发性判断族属。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 106 · [Rn]5f¹⁴6d⁴7s²（预测）",
+    "quantity": {
+      "value": 106,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Sg",
+      "nameEn": "Seaborgium",
+      "period": 7,
+      "group": 6,
+      "block": "d",
+      "configuration": "[Rn] 5f14 6d4 7s2",
+      "valence": "5f14 6d4 7s2",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能、半径、电负性均为理论预测口径，无实验测定。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6d⁴ · 第六族的计算构型",
+      "note": "阶梯只表示填充次序；𬭛的构型与性质为理论预测，不是实验测定。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "超重元素",
+      "𬭛",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.bh",
+    "title": "107 号：6d⁵ 半满，𬭶的第七族身份仍只是计算",
+    "titleEn": "Bohrium",
+    "summary": "𬭛的 6d4 再加一个电子，𬭶得到半满的 6d5，构型为 5f14 6d5 7s2，落在第七族；三项关键性质仍无实验值，也没有可测的电离能或半径，第七族身份完全依赖理论计算，无法实测，不能补成具体数值。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 107 · [Rn]5f¹⁴6d⁵7s²（预测）",
+    "quantity": {
+      "value": 107,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Bh",
+      "nameEn": "Bohrium",
+      "period": 7,
+      "group": 7,
+      "block": "d",
+      "configuration": "[Rn] 5f14 6d5 7s2",
+      "valence": "5f14 6d5 7s2",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能、半径、电负性均为理论预测口径，无实验测定。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6d⁵ 半满 · 第七族的计算构型",
+      "note": "阶梯只表示填充次序；𬭶的构型与性质为理论预测，不是实验测定。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "超重元素",
+      "𬭶",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.hs",
+    "title": "108 号：6d⁶ 之后，𬭳的质量数反而比𬭶小",
+    "titleEn": "Hassium",
+    "summary": "𬭶的 6d5 再加一个电子成为 6d6，𬭳落在第八族，同族是锇；但它的常用质量数 269 比𬭶的 270 还小，N/Z 因此明显下降，这是比较核素不同造成的，也不能代表元素的整体中子组成。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 108 · [Rn]5f¹⁴6d⁶7s²（预测）",
+    "quantity": {
+      "value": 108,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Hs",
+      "nameEn": "Hassium",
+      "period": 7,
+      "group": 8,
+      "block": "d",
+      "configuration": "[Rn] 5f14 6d6 7s2",
+      "valence": "5f14 6d6 7s2",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能、半径、电负性均为理论预测口径，无实验测定。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6d⁶ · 第八族的计算构型",
+      "note": "阶梯只表示填充次序；𬭳的构型与性质为理论预测，不是实验测定。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "超重元素",
+      "𬭳",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.mt",
+    "title": "109 号：6d⁷ 让鿏进入第九族，质量数却跳了一大步",
+    "titleEn": "Meitnerium",
+    "summary": "𬭳的 6d6 再加一个电子成为 6d7，鿏与铱同族；常用质量数从 269 跳到 278，N/Z 由 1.49 升到 1.55，这一跳来自所选同位素的改变，三项电子性质仍无实验值，不能据此判断核稳定性，也不能当作实测。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 109 · [Rn]5f¹⁴6d⁷7s²（预测）",
+    "quantity": {
+      "value": 109,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Mt",
+      "nameEn": "Meitnerium",
+      "period": 7,
+      "group": 9,
+      "block": "d",
+      "configuration": "[Rn] 5f14 6d7 7s2",
+      "valence": "5f14 6d7 7s2",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能、半径、电负性均为理论预测口径，无实验测定。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6d⁷ · 第九族的计算构型",
+      "note": "阶梯只表示填充次序；鿏的构型与性质为理论预测，不是实验测定。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "超重元素",
+      "鿏",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.ds",
+    "title": "110 号：6d⁸ 接近满壳，𫟼的第十族身份只有计算支撑",
+    "titleEn": "Darmstadtium",
+    "summary": "鿏的 6d7 再加一个电子成为 6d8，𫟼落在第十族，与铂同列；常用质量数 281 使 N/Z 停在 1.55，6d 壳接近填满，但三项性质仍无实验值，所有电子性质都只能由理论给出，不能写成实测事实。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 110 · [Rn]5f¹⁴6d⁸7s²（预测）",
+    "quantity": {
+      "value": 110,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ds",
+      "nameEn": "Darmstadtium",
+      "period": 7,
+      "group": 10,
+      "block": "d",
+      "configuration": "[Rn] 5f14 6d8 7s2",
+      "valence": "5f14 6d8 7s2",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能、半径、电负性均为理论预测口径，无实验测定。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6d⁸ · 第十族的计算构型",
+      "note": "阶梯只表示填充次序；𫟼的构型与性质为理论预测，不是实验测定。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "超重元素",
+      "𫟼",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.rg",
+    "title": "111 号：6d⁹ 只差一个电子，𬬭的第十一族仍是预测",
+    "titleEn": "Roentgenium",
+    "summary": "𫟼的 6d8 再加一个电子成为 6d9，𬬭落在第十一族，与铜、银、金同列；它的电离能、半径与电负性仍无实验值，6d 只差一个电子就满，成键行为却仍只能由理论推断，三项属性也仍未实测。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 111 · [Rn]5f¹⁴6d⁹7s²（预测）",
+    "quantity": {
+      "value": 111,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Rg",
+      "nameEn": "Roentgenium",
+      "period": 7,
+      "group": 11,
+      "block": "d",
+      "configuration": "[Rn] 5f14 6d9 7s2",
+      "valence": "5f14 6d9 7s2",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；电离能、半径、电负性均为理论预测口径，无实验测定。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6d⁹ · 第十一族的计算构型",
+      "note": "阶梯只表示填充次序；𬬭的构型与性质为理论预测，不是实验测定。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "第七周期",
+      "超重元素",
+      "𬬭",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.cn",
+    "title": "鎶：第 112 个质子合上 6d 壳，预测它比汞更易挥发",
+    "titleEn": "Copernicium",
+    "summary": "𬬭的 6d9 在鎶这里补成 6d10，7s2 仍在外层；多出的质子没有打开新壳层，只合上一个 d 亚层。它的第一电离能、原子半径与电负性都没有实验值，只有理论预测，而且鎶没有稳定同位素，已知同位素寿命极短。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 112 · [Rn]5f¹⁴6d¹⁰7s²（预测）",
+    "quantity": {
+      "value": 112,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Cn",
+      "nameEn": "Copernicium",
+      "period": 7,
+      "group": 12,
+      "block": "d",
+      "configuration": "[Rn] 5f14 6d10 7s2",
+      "valence": "5f14 6d10 7s2",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；超重元素数值为理论预测口径",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期第 12 列 · 6d 在此合上",
+      "note": "阶梯为结构示意；鎶的构型与挥发性均为理论预测，不是实测结果。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "超重元素",
+      "第七周期",
+      "鎶",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.nh",
+    "title": "鉨：7p 第一次打开，第 113 个质子把价层推进 p 区",
+    "titleEn": "Nihonium",
+    "summary": "鎶的 6d10 已满，鉨把下一个电子放进 7p，首次打开 7p 亚层，相对论使它分裂成两支；它的第一电离能、原子半径与电负性都没有实验值，只有理论预测，而且鉨没有稳定同位素，已知同位素寿命极短。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 113 · [Rn]5f¹⁴6d¹⁰7s²7p¹（预测）",
+    "quantity": {
+      "value": 113,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Nh",
+      "nameEn": "Nihonium",
+      "period": 7,
+      "group": 13,
+      "block": "p",
+      "configuration": "[Rn] 5f14 6d10 7s2 7p1",
+      "valence": "5f14 6d10 7s2 7p1",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；超重元素数值为理论预测口径",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期第 13 列 · 7p 的第一级台阶",
+      "note": "阶梯为结构示意；鉨的构型与性质均为理论预测，不是实测结果。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "超重元素",
+      "第七周期",
+      "鉨",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.fl",
+    "title": "𫓧：7p² 的第二个电子，把第 114 格推向易挥发金属",
+    "titleEn": "Flerovium",
+    "summary": "鉨的 7p1 之后，𫓧把 7p 填到 7p2，进入第 14 族；相对论让 7p 分成两支，第二个电子落在较低一支。它的第一电离能、原子半径与电负性都没有实验值，只有理论预测，而且𫓧没有稳定同位素。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 114 · [Rn]5f¹⁴6d¹⁰7s²7p²（预测）",
+    "quantity": {
+      "value": 114,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Fl",
+      "nameEn": "Flerovium",
+      "period": 7,
+      "group": 14,
+      "block": "p",
+      "configuration": "[Rn] 5f14 6d10 7s2 7p2",
+      "valence": "5f14 6d10 7s2 7p2",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；超重元素数值为理论预测口径",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期第 14 列 · 7p 的第二级台阶",
+      "note": "阶梯为结构示意；𫓧的构型与挥发性均为理论预测，不是实测结果。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "超重元素",
+      "第七周期",
+      "𫓧",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.mc",
+    "title": "麦克：7p 半满，第 115 个质子没有带来典型氮族化学",
+    "titleEn": "Moscovium",
+    "summary": "𫓧的 7p2 再加一个电子，麦克得到 7p3，7p 达到半满；相对论分裂使半满不等于氮族的三价成键。它的第一电离能、原子半径与电负性都没有实验值，只有理论预测，而且麦克没有稳定同位素。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 115 · [Rn]5f¹⁴6d¹⁰7s²7p³（预测）",
+    "quantity": {
+      "value": 115,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Mc",
+      "nameEn": "Moscovium",
+      "period": 7,
+      "group": 15,
+      "block": "p",
+      "configuration": "[Rn] 5f14 6d10 7s2 7p3",
+      "valence": "5f14 6d10 7s2 7p3",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；超重元素数值为理论预测口径",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期第 15 列 · 7p 走到半满",
+      "note": "阶梯为结构示意；麦克的构型与性质均为理论预测，不是实测结果。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "超重元素",
+      "第七周期",
+      "麦克",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.lv",
+    "title": "𫟷：7p⁴ 与第 116 格，预测中的金属性硫族",
+    "titleEn": "Livermorium",
+    "summary": "麦克的 7p3 之后，𫟷把 7p 填到 7p4，进入第 16 族；两对电子的能量因自旋-轨道分裂而不同，预测它更接近金属性的钋。它的第一电离能、原子半径与电负性都没有实验值，只有理论预测，而且𫟷没有稳定同位素。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 116 · [Rn]5f¹⁴6d¹⁰7s²7p⁴（预测）",
+    "quantity": {
+      "value": 116,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Lv",
+      "nameEn": "Livermorium",
+      "period": 7,
+      "group": 16,
+      "block": "p",
+      "configuration": "[Rn] 5f14 6d10 7s2 7p4",
+      "valence": "5f14 6d10 7s2 7p4",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；超重元素数值为理论预测口径",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期第 16 列 · 7p 的两对电子",
+      "note": "阶梯为结构示意；𫟷的构型与金属性均为理论预测，不是实测结果。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "超重元素",
+      "第七周期",
+      "𫟷",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.ts",
+    "title": "鿬：7p⁵ 的最后一枚电子，卤素之名下的强金属性",
+    "titleEn": "Tennessine",
+    "summary": "𫟷的 7p4 之后，鿬得到 7p5，7p1/2 已满，最后一个电子落在较高的 7p3/2；预测它仍能表现 −1 价，但金属性强于碘。它的第一电离能、原子半径与电负性都没有实验值，只有理论预测，而且鿬没有稳定同位素。",
+    "dimension": "element",
+    "category": "超重元素",
+    "displayValue": "Z = 117 · [Rn]5f¹⁴6d¹⁰7s²7p⁵（预测）",
+    "quantity": {
+      "value": 117,
+      "unit": "Z",
+      "measure": "原子序数（Z）",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ts",
+      "nameEn": "Tennessine",
+      "period": 7,
+      "group": 17,
+      "block": "p",
+      "configuration": "[Rn] 5f14 6d10 7s2 7p5",
+      "valence": "5f14 6d10 7s2 7p5",
+      "level": "C",
+      "predicted": true
+    },
+    "conditions": "标准状态（298 K，1 bar）下的中性气态原子；超重元素数值为理论预测口径",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七周期第 17 列 · 7p 只差一个电子",
+      "note": "阶梯为结构示意；鿬的构型与金属性均为理论预测，不是实测结果。"
+    },
+    "reviewStatus": "reviewed",
+    "tags": [
+      "元素",
+      "超重元素",
+      "第七周期",
+      "鿬",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.og",
+    "title": "第七层结束：鿫与 5f6d7s7p 闭壳",
+    "titleEn": "Closed shell 118: oganesson and the predicted filled 7s7p",
+    "dimension": "element",
+    "category": "闭壳节点",
+    "summary": "鿫是周期表目前的最后一个格子。按填充规则，7s 与 7p 应当填满，但它的构型与性质全部来自计算预测；已有实验只确认它极不稳定，半衰期以毫秒计。",
+    "quantity": {
+      "value": 118,
+      "unit": "Z",
+      "measure": "原子序数（质子数）",
+      "approximate": false,
+      "measureLabel": "原子序数 Z"
+    },
+    "displayValue": "Z = 118 · [Rn]5f¹⁴6d¹⁰7s²7p⁶（预测）",
+    "element": {
+      "symbol": "Og",
+      "nameEn": "Oganesson",
+      "period": 7,
+      "group": 18,
+      "block": "p",
+      "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p6",
+      "valence": "5f14 6d10 7s2 7p6",
+      "hub": true,
+      "closedShell": 118,
+      "periodStart": 87,
+      "periodEnd": 118,
+      "predicted": true,
+      "level": "C"
+    },
+    "reviewStatus": "reviewed",
+    "conditions": "鿫的电子构型、电离能与化学性质均来自理论计算，尚无实验测定；本页把预测值与实测值严格分开，不把 7p⁶ 当作已观测事实。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶 · 第七周期的预测终点",
+      "note": "阶梯为结构示意；鿫的构型与闭壳性质属于预测，不是实测结果。"
+    },
+    "tags": [
+      "闭壳节点",
+      "第七周期",
+      "鿫",
+      "预测值"
+    ]
+  },
+  {
+    "id": "elements.explain-configuration",
+    "title": "电子排布：为什么顺序是 1s→2s→2p→3s→3p→4s→3d",
+    "titleEn": "Electron configuration and the Aufbau order",
+    "dimension": "element",
+    "category": "解释层",
+    "summary": "元素的性质不是按质子数平铺，而是按电子填入的次序分段。这一页解释 Aufbau 次序、4s 与 3d 的交错，以及铬、铜、钆、铂为什么是例外。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "概念解释，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "解释页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "解释层的普遍规则；具体元素的实测构型以光谱数据为准，异常构型不强行套用单一规则。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "亚层容量与填充次序示意",
+      "note": "次序为规则示意，不表示能级的精确能量间隔。"
+    },
+    "tags": [
+      "解释层",
+      "电子排布",
+      "Aufbau"
+    ]
+  },
+  {
+    "id": "elements.explain-energy-levels",
+    "title": "能级与亚层：周期表的台阶从哪里来",
+    "titleEn": "Energy levels, subshells and the shape of the periodic table",
+    "dimension": "element",
+    "category": "解释层",
+    "summary": "壳层不是同心圆环，而是一组能量相近的轨道。s、p、d、f 的容量差异与穿透能力，决定了每一行能放几个元素，也决定了 4s 与 3d 的先后。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "概念解释，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "解释页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "解释能为级与亚层的一般图像；轨道形状为概率密度示意，不代表电子沿固定路径运动。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "主量子数、角量子数与亚层容量",
+      "note": "能级间距为示意，不按实际数值比例绘制。"
+    },
+    "tags": [
+      "解释层",
+      "能级",
+      "亚层"
+    ]
+  },
+  {
+    "id": "elements.explain-lanthanide-contraction",
+    "title": "镧系收缩与相对论效应：重元素为什么反常",
+    "titleEn": "Lanthanide contraction and relativistic effects",
+    "dimension": "element",
+    "category": "解释层",
+    "summary": "4f 电子彼此屏蔽不良，使第六周期整体收缩；内层电子速度接近光速，又让 6s 轨道进一步收紧。汞在常温下是液体、金呈黄色、铂化学惰性，都由此而来。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "概念解释，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "解释页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "解释 4f 屏蔽不足与相对论收缩的定性机制；数值半径与颜色成因涉及能带与相对论计算，不在本页给出精确值。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "4f 填充导致的半径收缩示意",
+      "note": "收缩幅度为示意，不按实际皮米数绘制。"
+    },
+    "tags": [
+      "解释层",
+      "镧系收缩",
+      "相对论效应"
+    ]
+  },
+  {
+    "id": "elements.explain-nuclear-stability",
+    "title": "核稳定性、幻数与衰变：元素页的另一半",
+    "titleEn": "Nuclear stability, magic numbers and decay",
+    "dimension": "element",
+    "category": "解释层",
+    "summary": "壳层结构解释化学，核结构解释存在。中子质子比偏离稳定线、幻数带来的额外束缚、α 与 β 衰变的选择，共同决定一个元素有没有稳定同位素。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "概念解释，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "解释页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "核稳定性的定性解释；具体核素的半衰期与衰变分支以核数据数据库为准，本页不给单核素的精确数值。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "稳定线与中子质子比示意",
+      "note": "稳定带为示意曲线，不按每个核素的实测数据绘制。"
+    },
+    "tags": [
+      "解释层",
+      "核稳定性",
+      "幻数",
+      "衰变"
+    ]
+  },
+  {
+    "id": "elements.explain-periodic-law",
+    "title": "周期表为什么长这样：从门捷列夫到量子力学",
+    "titleEn": "Why the periodic table has this shape",
+    "dimension": "element",
+    "category": "解释层",
+    "summary": "门捷列夫按性质把元素排成表，留下空格并预测未知元素；量子力学后来证明，那些空格对应的是电子壳层的固定容量。周期律因此从经验规律变成结构推论。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "概念解释，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "解释页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "历史与结构的对照说明；门捷列夫时代的原子量排序与现代原子序数排序不同，本页只讨论结构含义，不展开优先级争议。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "从经验排序到壳层填充的对应",
+      "note": "表格布局为结构示意，不表示历史版本的细节差异。"
+    },
+    "tags": [
+      "解释层",
+      "周期律",
+      "历史"
+    ]
+  },
+  {
+    "id": "elements.explain-shielding",
+    "title": "屏蔽与有效核电荷：同周期上升、同族下降的根源",
+    "titleEn": "Shielding and effective nuclear charge",
+    "dimension": "element",
+    "category": "解释层",
+    "summary": "核电荷增加并不等于电子感受到的吸引力同比增加。内层电子的屏蔽让最外层只看到一部分核电荷，这一个差值解释了电离能、原子半径与电负性的三条趋势。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "概念解释，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "解释页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "屏蔽效应的定性解释；有效核电荷的定量估算依赖近似方法，不同方法给出的数值不可直接混用。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "内层电子对核电荷的屏蔽示意",
+      "note": "屏蔽为平均效应的示意，不表示单个电子的瞬时位置。"
+    },
+    "tags": [
+      "解释层",
+      "屏蔽",
+      "有效核电荷"
+    ]
+  },
+  {
+    "id": "elements.method-ionization",
+    "title": "电离能怎么量：从光谱系限到光电子能谱",
+    "titleEn": "How Ionization Energy Is Measured",
+    "dimension": "element",
+    "category": "方法层",
+    "summary": "第一电离能是气态中性原子失去一个电子所需的最小能量。它可以从光谱系限推出，也可以用光电子能谱或电子碰撞测量；逐级电离能则逐次升高。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "测量方法，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "方法页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "方法页；元素页的电离能一律为气态孤立原子口径，单位为 eV。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "光谱系限与光电子能谱 · 两种测法",
+      "note": "能级与谱线为示意，不表示具体元素的实测光谱。"
+    },
+    "tags": [
+      "方法层",
+      "电离能",
+      "光谱"
+    ]
+  },
+  {
+    "id": "elements.method-isotope",
+    "title": "同位素与半衰期怎么定：质谱与衰变计数",
+    "titleEn": "How Isotopes and Half-Lives Are Determined",
+    "dimension": "element",
+    "category": "方法层",
+    "summary": "同位素靠质谱按质量分离，半衰期靠衰变计数与原子数推算。稳定与放射性不是绝对二分：观测稳定只说明半衰期远长于观测时间。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "测量方法，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "方法页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "方法页；元素页只给稳定同位素状态与代表质量数，不把单一核素性质写成元素通性。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "质谱分离与衰变计数 · 两条测量链",
+      "note": "谱峰与计数曲线为示意，不表示具体样品的实测数据。"
+    },
+    "tags": [
+      "方法层",
+      "同位素",
+      "半衰期"
+    ]
+  },
+  {
+    "id": "elements.method-radius",
+    "title": "原子半径怎么量：没有硬边界的球",
+    "titleEn": "How Atomic Radius Is Measured",
+    "dimension": "element",
+    "category": "方法层",
+    "summary": "原子没有明确的边界，半径取决于测量口径：X 射线衍射给晶体中的间距，气体电子衍射给孤立分子，理论计算给另一套数值。比较半径前必须先统一口径。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "测量方法，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "方法页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "方法页；元素页给出的半径值必须注明口径（计算值、经验值或范德华半径）。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "三种半径口径 · 共价、经验与范德华",
+      "note": "原子与键长为示意，不按真实比例绘制。"
+    },
+    "tags": [
+      "方法层",
+      "原子半径",
+      "测量"
+    ]
+  },
+  {
+    "id": "elements.source-abundance",
+    "title": "太阳系元素丰度：一张继承下来的化学账单",
+    "titleEn": "Solar-System Elemental Abundance",
+    "dimension": "element",
+    "category": "来源层",
+    "summary": "太阳系元素丰度以硅为基准归一，氢氦占绝对多数，铁峰明显，重元素呈奇偶锯齿与 s/r 过程双峰。它是 46 亿年前星际云混合后的遗产，不是宇宙平均值。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "丰度分布，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "来源页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "过程页；丰度口径为太阳光球与 CI 球粒陨石，比较时必须先统一归一基准。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "太阳系元素丰度 · 奇偶锯齿与铁峰",
+      "note": "丰度曲线为示意，不按每个元素逐一绘制。"
+    },
+    "tags": [
+      "来源层",
+      "元素丰度",
+      "太阳系"
+    ]
+  },
+  {
+    "id": "elements.source-artificial",
+    "title": "人工合成与超重元素：实验室里的元素边界",
+    "titleEn": "Artificial Synthesis and Superheavy Elements",
+    "dimension": "element",
+    "category": "来源层",
+    "summary": "反应堆中子俘获与加速器重离子轰击，让人类制造出锝、钷、镎、钚以及 104 号以后的超重元素。一次实验可能只产生几个原子，识别全靠衰变链的指纹。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "核合成过程，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "来源页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "过程页；时间锚点为 time.nuclear-age，本页不重复秒数。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "重离子轰击与衰变链识别 · 示意",
+      "note": "靶核、束流与探测器为示意，不表示具体装置。"
+    },
+    "tags": [
+      "来源层",
+      "人工合成",
+      "超重元素"
+    ]
+  },
+  {
+    "id": "elements.source-bigbang",
+    "title": "大爆炸核合成：宇宙只造出了最轻的几种核",
+    "titleEn": "Big Bang Nucleosynthesis",
+    "dimension": "element",
+    "category": "来源层",
+    "summary": "大爆炸后约三分钟，宇宙温度降到能形成稳定核的水平，质子与中子合成氢、氘、氦-3、氦-4 与少量锂-7。碳以上的元素不在这一批里。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "核合成过程，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "来源页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "过程页；以 time.nucleosynthesis 节点为时间锚点，本页不复述秒数。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "原初核合成 · 质子与中子结合的最初几分钟",
+      "note": "反应网络为示意，不表示粒子轨迹或真实反应速率。"
+    },
+    "tags": [
+      "来源层",
+      "大爆炸核合成",
+      "原初元素"
+    ]
+  },
+  {
+    "id": "elements.source-p-process",
+    "title": "p 过程与宇宙线散裂：稀有富质子核与轻元素的另一条路",
+    "titleEn": "The p-process and Cosmic-Ray Spallation",
+    "dimension": "element",
+    "category": "来源层",
+    "summary": "p 过程在高温层用光致蜕变与 β+ 衰变生成富质子核素；宇宙线散裂则把较重核撞碎，留下锂、铍、硼。两条路径产量都不大，却解释了丰度曲线上的若干异常。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "核合成过程，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "来源页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "过程页；散裂是持续过程，p 过程发生在恒星高温层，时间锚点只作参考。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "宇宙线散裂 · 重核被打碎成轻核",
+      "note": "碰撞与碎片为示意，不表示真实径迹或截面。"
+    },
+    "tags": [
+      "来源层",
+      "p 过程",
+      "宇宙线散裂"
+    ]
+  },
+  {
+    "id": "elements.source-r-process",
+    "title": "r 过程：中子星并合里的快中子俘获",
+    "titleEn": "The r-process in Neutron-Star Mergers",
+    "dimension": "element",
+    "category": "来源层",
+    "summary": "r 过程靠极高中子通量把核素推到远离稳定线的地方，再让 β 衰变把它们带回稳定线。铕、金、铂、铀、钍的相当一部分来自这条路径，中子星并合是最直接的候选场所。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "核合成过程，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "来源页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "过程页；时间锚点为 time.neutron-star-merger，本页不重复秒数。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "r 过程 · 远离稳定线的快中子俘获路径",
+      "note": "核素路径与抛射物为示意，不按真实产额绘制。"
+    },
+    "tags": [
+      "来源层",
+      "r 过程",
+      "中子星并合"
+    ]
+  },
+  {
+    "id": "elements.source-s-process",
+    "title": "s 过程：AGB 星里的慢中子俘获",
+    "titleEn": "The s-process in AGB Stars",
+    "dimension": "element",
+    "category": "来源层",
+    "summary": "s 过程靠慢中子俘获沿稳定线爬升：中子加得慢，β 衰变跟得上，产物落在稳定核上。它主要发生在 AGB 星的氦壳，贡献锶、钡、铅等元素。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "核合成过程，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "来源页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "过程页；时间锚点为 time.agb-phase，本页不重复秒数。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "s 过程 · 沿稳定线的慢中子俘获路径",
+      "note": "核素路径为示意，不按真实分支比绘制。"
+    },
+    "tags": [
+      "来源层",
+      "s 过程",
+      "AGB 星"
+    ]
+  },
+  {
+    "id": "elements.source-stellar",
+    "title": "恒星核合成与 CNO 循环：碳氮氧不只是产物",
+    "titleEn": "Stellar Nucleosynthesis and the CNO Cycle",
+    "dimension": "element",
+    "category": "来源层",
+    "summary": "恒星核心把氢烧成氦，pp 链与 CNO 循环是两条主路径。CNO 循环用碳、氮、氧作催化剂，在较热的核心中主导氢燃烧。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "核合成过程，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "来源页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "过程页；恒星质量与金属丰度决定 pp 链与 CNO 循环的相对贡献。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "恒星核心的氢燃烧 · pp 链与 CNO 循环并列",
+      "note": "反应步骤为示意，不表示真实恒星内部的几何结构。"
+    },
+    "tags": [
+      "来源层",
+      "恒星核合成",
+      "CNO 循环"
+    ]
+  },
+  {
+    "id": "elements.source-triple-alpha",
+    "title": "三α过程与铁峰：恒星为什么停在铁",
+    "titleEn": "The Triple-Alpha Process and the Iron Peak",
+    "dimension": "element",
+    "category": "来源层",
+    "summary": "三个氦核通过共振生成碳-12，继续俘获α粒子造出氧、氖、镁，直到硅燃烧把核心推到铁峰。铁峰之后聚变不再释放能量，恒星只能坍缩。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "核合成过程，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "来源页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "过程页；以 time.pop-iii-supernovae 节点为超新星锚点，本页不重复时间数值。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "三α过程与铁峰 · 结合能曲线的转折",
+      "note": "结合能曲线为示意，不按核素逐一绘制。"
+    },
+    "tags": [
+      "来源层",
+      "三α过程",
+      "铁峰"
+    ]
+  }
+]
