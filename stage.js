@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import {articleUrl} from '/engine/content/routes.js';
 import {currentTheme,watchTheme} from '/engine/renderer/theme.js';
+import {createSpaceEnvironment} from '/engine/renderer/studio.js';
 
 const $ = (id) => document.getElementById(id);
 const immersive = document.getElementById('el-immersive');
@@ -123,10 +124,15 @@ function initScene() {
   scene = new THREE.Scene();
   scene.fog = new THREE.FogExp2(0x05080d, 0.024);
   electronTexture = makeGlowTexture('rgba(255,255,255,.98)', 'rgba(126,232,255,.28)');
+  try {
+    const environment = createSpaceEnvironment(renderer);
+    scene.environment = environment.texture;
+    scene.environmentIntensity = 0.6;
+  } catch (error) { console.warn('深空反射环境不可用', error); }
 
   const width = host.clientWidth || window.innerWidth;
   camera = new THREE.PerspectiveCamera(40, width / (host.clientHeight || window.innerHeight), 0.1, 90);
-  camera.position.set(width < 700 ? 1.15 : 0.72, 0.15, 11.2);
+  camera.position.set(width < 700 ? 1.0 : 0.62, 0.12, width < 700 ? 9.8 : 8.7);
   camera.lookAt(0, 0, 0);
 
   world = new THREE.Group();
@@ -269,21 +275,32 @@ function makeProbabilityCloud(token, radius, fraction, seed, maxN, z) {
     color, size: z > 40 ? 6 : 5.2, map: electronTexture, transparent: true, opacity: baseOpacity,
     alphaTest: 0.01, blending: THREE.AdditiveBlending, depthWrite: false, sizeAttenuation: false
   }));
+  const halo = new THREE.Points(geometry, new THREE.PointsMaterial({
+    color, size: z > 40 ? 17 : 15, map: electronTexture, transparent: true, opacity: baseOpacity * 0.1,
+    alphaTest: 0.01, blending: THREE.AdditiveBlending, depthWrite: false, sizeAttenuation: false
+  }));
   const group = new THREE.Group();
-  group.add(points);
-  const materials = [{material: points.material, baseOpacity}];
+  group.add(points, halo);
+  const materials = [{material: points.material, baseOpacity}, {material: halo.material, baseOpacity: baseOpacity * 0.1}];
   const surfaceOpacity = (isS ? 0.012 + 0.008 * fraction : 0.14 + 0.06 * fraction) * shellFade * zFade;
+  // 轨道叶瓣：菲涅尔边缘发光、内部近乎透明，避免半透明椭球叠成一团「浑浊色块」。
+  const orbitalShellMaterial = opacity => new THREE.ShaderMaterial({
+    transparent: true, depthWrite: false, side: THREE.DoubleSide, blending: THREE.AdditiveBlending,
+    uniforms: {tint: {value: new THREE.Color(color)}, baseOpacity: {value: opacity}, power: {value: 2.7}},
+    vertexShader: `varying vec3 vN; varying vec3 vP;
+      void main(){ vN=normalize(mat3(modelMatrix)*normal); vec4 p=modelMatrix*vec4(position,1.0); vP=p.xyz; gl_Position=projectionMatrix*viewMatrix*p; }`,
+    fragmentShader: `uniform vec3 tint; uniform float baseOpacity; uniform float power; varying vec3 vN; varying vec3 vP;
+      void main(){ vec3 n=normalize(vN); vec3 v=normalize(cameraPosition-vP); float f=pow(1.0-abs(dot(n,v)),power);
+        float a=(0.018+0.982*f)*baseOpacity; gl_FragColor=vec4(tint,a); }`
+  });
   const addLobe = (position, scale, rotationZ = 0) => {
-    const material = new THREE.MeshBasicMaterial({
-      color, transparent: true, opacity: surfaceOpacity,
-      blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide
-    });
+    const material = orbitalShellMaterial(surfaceOpacity * 1.55);
     const lobe = new THREE.Mesh(new THREE.SphereGeometry(1, 18, 12), material);
     lobe.position.copy(position);
     lobe.scale.copy(scale);
     lobe.rotation.z = rotationZ;
     group.add(lobe);
-    materials.push({material, baseOpacity: surfaceOpacity});
+    materials.push({material, baseOpacity: surfaceOpacity * 1.55, shader: true});
   };
   if (token.l === 's') {
     const shell = new THREE.Mesh(
@@ -333,8 +350,8 @@ function rebuildAtom(z, element, property) {
   const neutrons = Math.max(0, totalNucleons - z);
   const nucleonRadius = Math.max(0.045, 0.18 / Math.cbrt(Math.max(1, totalNucleons)));
   const clusterRadius = 0.12 + 0.62 * Math.cbrt(totalNucleons / 238) + (totalNucleons <= 4 ? 0.08 : 0);
-  const nucleonGeometry = new THREE.SphereGeometry(Math.max(0.035, nucleonRadius), 12, 10);
-  const nucleonMaterial = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.28, metalness: 0.15, emissive: 0x000000 });
+  const nucleonGeometry = new THREE.SphereGeometry(Math.max(0.035, nucleonRadius), 20, 16);
+  const nucleonMaterial = new THREE.MeshPhysicalMaterial({ color: 0xffffff, roughness: 0.28, metalness: 0.2, clearcoat: 0.55, clearcoatRoughness: 0.28, emissive: 0x000000, envMapIntensity: 1.35 });
   const nucleusMesh = new THREE.InstancedMesh(nucleonGeometry, nucleonMaterial, totalNucleons);
   const dummy = new THREE.Object3D();
   const protonColor = new THREE.Color(0xffb36b);
@@ -343,10 +360,10 @@ function rebuildAtom(z, element, property) {
   for (let i = 0; i < totalNucleons; i++) {
     let x = 0, y = 0, zPos = 0;
     if (totalNucleons > 1) {
-      const fraction = (i + 0.5) / totalNucleons;
-      const radius = clusterRadius * Math.cbrt(fraction) * (0.92 + Math.random() * 0.15);
-      const theta = i * 2.399963229728653;
-      const phi = Math.acos(1 - 2 * fraction);
+      // 均匀填充球体，而不是按序排成同心壳；小核看起来更紧凑，大核更像真实的核团。
+      const radius = clusterRadius * Math.cbrt(0.15 + Math.random() * 0.85);
+      const theta = Math.random() * Math.PI * 2;
+      const phi = Math.acos(2 * Math.random() - 1);
       x = radius * Math.sin(phi) * Math.cos(theta);
       y = radius * Math.cos(phi);
       zPos = radius * Math.sin(phi) * Math.sin(theta);
@@ -721,7 +738,7 @@ function onResize() {
   const height = host.clientHeight || window.innerHeight;
   renderer.setSize(width, height);
   camera.aspect = width / height;
-  camera.position.x = width < 700 ? 1.15 : 0.72;
+  camera.position.x = width < 700 ? 1.0 : 0.62;
   camera.updateProjectionMatrix();
 }
 
@@ -730,7 +747,8 @@ function animate(now) {
   for (const cloud of probabilityClouds) {
     const pulse = reducedMotion ? 1 : 0.9 + 0.1 * Math.sin(now * 0.0012 + cloud.userData.phase);
     for (const item of cloud.userData.materials) {
-      item.material.opacity = item.baseOpacity * pulse;
+      if (item.shader && item.material.uniforms?.baseOpacity) item.material.uniforms.baseOpacity.value = item.baseOpacity * pulse;
+      else item.material.opacity = item.baseOpacity * pulse;
     }
   }
   if (tourRunning) {
