@@ -6,6 +6,50 @@ if (reduceMotion) document.documentElement.classList.add('reduce-motion');
 
 const $ = (id) => document.getElementById(id);
 const esc = (value) => String(value ?? '').replace(/[&<>"]/g, (char) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[char]));
+const ISOTOPE_NOTE_EN = {
+ '¹H 与 ²H 稳定；³H 半衰期 12.32 年':'¹H and ²H are stable; ³H has a half-life of 12.32 years',
+ '³He 与 ⁴He 稳定':'³He and ⁴He are stable',
+ '⁶Li 与 ⁷Li 稳定':'⁶Li and ⁷Li are stable',
+ '¹²C 与 ¹³C 稳定；¹⁴C 半衰期 5,700 年':'¹²C and ¹³C are stable; ¹⁴C has a half-life of 5,700 years',
+ '¹⁴N 与 ¹⁵N 稳定':'¹⁴N and ¹⁵N are stable',
+ '¹⁶O、¹⁷O、¹⁸O 稳定':'¹⁶O, ¹⁷O and ¹⁸O are stable',
+ '²⁰Ne、²¹Ne、²²Ne 稳定':'²⁰Ne, ²¹Ne and ²²Ne are stable',
+ '²³Na 稳定':'²³Na is stable',
+ '²⁴Mg、²⁵Mg、²⁶Mg 稳定':'²⁴Mg, ²⁵Mg and ²⁶Mg are stable',
+ '²⁷Al 稳定':'²⁷Al is stable',
+ '²⁸Si、²⁹Si、³⁰Si 稳定':'²⁸Si, ²⁹Si and ³⁰Si are stable',
+ '³¹P 稳定':'³¹P is stable',
+ '³²S、³³S、³⁴S、³⁶S 稳定':'³²S, ³³S, ³⁴S and ³⁶S are stable',
+ '³⁵Cl 与 ³⁷Cl 稳定':'³⁵Cl and ³⁷Cl are stable',
+ '³⁶Ar、³⁸Ar、⁴⁰Ar 稳定':'³⁶Ar, ³⁸Ar and ⁴⁰Ar are stable',
+ '³⁹K 与 ⁴¹K 稳定；⁴⁰K 半衰期 1.25×10⁹ 年':'³⁹K and ⁴¹K are stable; ⁴⁰K has a half-life of 1.25×10⁹ years',
+ '⁴⁰Ca、⁴²Ca、⁴³Ca、⁴⁴Ca、⁴⁶Ca 稳定；⁴⁸Ca 半衰期约 6×10¹⁹ 年':'⁴⁰Ca, ⁴²Ca, ⁴³Ca, ⁴⁴Ca and ⁴⁶Ca are stable; ⁴⁸Ca has a half-life of about 6×10¹⁹ years',
+ '⁴⁶Ti–⁵⁰Ti 五种稳定同位素':'Five stable isotopes: ⁴⁶Ti–⁵⁰Ti',
+ '⁵⁰Cr、⁵²Cr、⁵³Cr、⁵⁴Cr 稳定':'⁵⁰Cr, ⁵²Cr, ⁵³Cr and ⁵⁴Cr are stable',
+ '⁵⁴Fe、⁵⁶Fe、⁵⁷Fe、⁵⁸Fe 稳定':'⁵⁴Fe, ⁵⁶Fe, ⁵⁷Fe and ⁵⁸Fe are stable',
+ '⁵⁵Mn 稳定':'⁵⁵Mn is stable',
+ '⁵⁸Ni、⁶⁰Ni、⁶¹Ni、⁶²Ni、⁶⁴Ni 稳定':'⁵⁸Ni, ⁶⁰Ni, ⁶¹Ni, ⁶²Ni and ⁶⁴Ni are stable',
+ '⁵⁹Co 稳定':'⁵⁹Co is stable',
+ '⁶³Cu 与 ⁶⁵Cu 稳定':'⁶³Cu and ⁶⁵Cu are stable',
+ '⁶⁴Zn、⁶⁶Zn、⁶⁷Zn、⁶⁸Zn、⁷⁰Zn 稳定':'⁶⁴Zn, ⁶⁶Zn, ⁶⁷Zn, ⁶⁸Zn and ⁷⁰Zn are stable',
+ '⁷⁹Br 与 ⁸¹Br 稳定':'⁷⁹Br and ⁸¹Br are stable',
+ '⁷⁸Kr、⁸⁰Kr、⁸²Kr、⁸³Kr、⁸⁴Kr、⁸⁶Kr 稳定':'⁷⁸Kr, ⁸⁰Kr, ⁸²Kr, ⁸³Kr, ⁸⁴Kr and ⁸⁶Kr are stable',
+ '¹⁰⁷Ag 与 ¹⁰⁹Ag 稳定':'¹⁰⁷Ag and ¹⁰⁹Ag are stable',
+ '¹²⁷I 稳定':'¹²⁷I is stable',
+ '¹³³Cs 稳定':'¹³³Cs is stable',
+ '¹³⁸La 与 ¹³⁹La 稳定（¹³⁸La 为极长寿命放射性核）':'¹³⁸La and ¹³⁹La are stable (¹³⁸La is an extremely long-lived radionuclide)',
+ '¹⁹⁷Au 稳定':'¹⁹⁷Au is stable',
+ '¹⁸²W、¹⁸³W、¹⁸⁴W、¹⁸⁶W 稳定；¹⁸⁰W 半衰期约 1.8×10¹⁸ 年':'¹⁸²W, ¹⁸³W, ¹⁸⁴W and ¹⁸⁶W are stable; ¹⁸⁰W has a half-life of about 1.8×10¹⁸ years',
+ '¹⁹⁰Pt、¹⁹²Pt、¹⁹⁴Pt–¹⁹⁶Pt、¹⁹⁸Pt 共六种稳定同位素':'Six stable isotopes: ¹⁹⁰Pt, ¹⁹²Pt, ¹⁹⁴Pt–¹⁹⁶Pt and ¹⁹⁸Pt',
+ '¹⁹⁶Hg、¹⁹⁸Hg–²⁰²Hg、²⁰⁴Hg 共七种稳定同位素':'Seven stable isotopes: ¹⁹⁶Hg, ¹⁹⁸Hg–²⁰²Hg and ²⁰⁴Hg',
+ '²⁰⁴Pb、²⁰⁶Pb、²⁰⁷Pb、²⁰⁸Pb 稳定':'²⁰⁴Pb, ²⁰⁶Pb, ²⁰⁷Pb and ²⁰⁸Pb are stable',
+ '¹¹²Sn、¹¹⁴Sn–¹²⁰Sn、¹²²Sn、¹²⁴Sn 共十种稳定同位素':'Ten stable isotopes: ¹¹²Sn, ¹¹⁴Sn–¹²⁰Sn, ¹²²Sn and ¹²⁴Sn',
+ '¹²⁴Xe、¹²⁶Xe、¹²⁸Xe–¹³²Xe、¹³⁴Xe、¹³⁶Xe 共九种稳定同位素':'Nine stable isotopes: ¹²⁴Xe, ¹²⁶Xe, ¹²⁸Xe–¹³²Xe, ¹³⁴Xe and ¹³⁶Xe',
+ '¹³⁰Ba、¹³²Ba、¹³⁴Ba–¹³⁸Ba 共七种稳定同位素':'Seven stable isotopes: ¹³⁰Ba, ¹³²Ba and ¹³⁴Ba–¹³⁸Ba',
+ '无稳定同位素':'No stable isotopes',
+ '无稳定同位素；²³⁸U 半衰期 4.468×10⁹ 年，²³⁵U 半衰期 7.04×10⁸ 年':'No stable isotopes; ²³⁸U has a half-life of 4.468×10⁹ years, ²³⁵U of 7.04×10⁸ years'
+};
+const isotopeNoteEn = (note) => ISOTOPE_NOTE_EN[note] || note;
 
 function occupancy(configuration) {
   const map = new Map();
@@ -111,8 +155,8 @@ function renderDetail(element) {
   const isotopeRow = () => {
     const previousText = prevElement ? `<small data-en="${esc(prevElement.symbol)}: ${Number.isFinite(prevProps.stableIsotopes) ? (prevProps.stableIsotopes === 0 ? 'no stable isotopes' : `${prevProps.stableIsotopes} stable isotopes`) : 'has stable isotopes'}">${esc(prevElement.symbol)}：${Number.isFinite(prevProps.stableIsotopes) ? (prevProps.stableIsotopes === 0 ? '无稳定同位素' : `稳定同位素 ${prevProps.stableIsotopes} 种`) : '有稳定同位素'}</small>` : '';
     if (!Number.isFinite(props.stableIsotopes)) return `<span data-en="Has stable isotopes">有稳定同位素</span>${previousText}`;
-    if (props.stableIsotopes === 0) return `<strong data-en="No stable isotopes">无稳定同位素</strong>${previousText}${props.isotopeNote ? `<small>${esc(props.isotopeNote)}</small>` : ''}`;
-    return `<strong data-en="${props.stableIsotopes} stable isotopes">稳定同位素 ${props.stableIsotopes} 种</strong>${previousText}${props.isotopeNote ? `<small>${esc(props.isotopeNote)}</small>` : ''}`;
+    if (props.stableIsotopes === 0) return `<strong data-en="No stable isotopes">无稳定同位素</strong>${previousText}${props.isotopeNote ? `<small data-en="${esc(isotopeNoteEn(props.isotopeNote))}">${esc(props.isotopeNote)}</small>` : ''}`;
+    return `<strong data-en="${props.stableIsotopes} stable isotopes">稳定同位素 ${props.stableIsotopes} 种</strong>${previousText}${props.isotopeNote ? `<small data-en="${esc(isotopeNoteEn(props.isotopeNote))}">${esc(props.isotopeNote)}</small>` : ''}`;
   };
   const articleLinks = [
     hub ? `<a class="el-action" href="${esc(articleUrl(hub))}" data-en="Why this shell ends ↗">阅读“这一层为什么结束” ↗</a>` : '',
