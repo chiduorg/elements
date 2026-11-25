@@ -38,6 +38,74 @@
     ]
   },
   {
+    "id": "elements.h-2",
+    "title": "氘：氘是氢的稳定重同位素，原子核含一个质子一个中子",
+    "titleEn": "Deuterium",
+    "summary": "氘的原子序数 Z=1、质量数 A=2，稳定；氘是氢的稳定重同位素，原子核含一个质子一个中子；天然氢中约 0.0156% 是氘，重水就是氘替代氢的水。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 1 · 氘（A = 2）",
+    "quantity": {
+      "value": 1,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=2",
+      "measureLabel": "氘的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "H",
+      "nameEn": "Deuterium",
+      "isotope": 2,
+      "massNumber": 2
+    },
+    "conditions": "原子核口径：Z=1，A=2；半衰期 稳定；天然丰度：天然氢中约 0.0156%。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "氢位于第一级台阶的起点，1s 上只有一个电子。 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "elements.h-3",
+    "title": "氚：氚是氢的放射性同位素，半衰期约 12.32 年，β⁻ 衰",
+    "titleEn": "Tritium",
+    "summary": "氚的原子序数 Z=1、质量数 A=3，12.32 年；氚是氢的放射性同位素，半衰期约 12.32 年，β⁻ 衰变后变成氦-3；它的低能β辐射穿透力弱，但吸入或摄入后仍需防护。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 1 · 氚（A = 3）",
+    "quantity": {
+      "value": 1,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=3",
+      "measureLabel": "氚的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "H",
+      "nameEn": "Tritium",
+      "isotope": 3,
+      "massNumber": 3
+    },
+    "conditions": "原子核口径：Z=1，A=3；半衰期 12.32 年；天然丰度：大气与核反应中微量生成。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "氢位于第一级台阶的起点，1s 上只有一个电子。 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
     "id": "elements.he",
     "title": "氦：第 2 个质子把 1s 填满，第一周期在这里收尾",
     "titleEn": "Helium",
@@ -78,6 +146,74 @@
       "闭壳",
       "氦"
     ]
+  },
+  {
+    "id": "elements.he-3",
+    "title": "氦-3：氦-3 含两个质子一个中子，是稳定的轻同位素",
+    "titleEn": "Helium-3",
+    "summary": "氦-3的原子序数 Z=2、质量数 A=3，稳定；氦-3 含两个质子一个中子，是稳定的轻同位素；天然氦中丰度只有约 0.0002%，在极低温下会出现超流等量子行为。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 2 · 氦-3（A = 3）",
+    "quantity": {
+      "value": 2,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=3",
+      "measureLabel": "氦-3的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "He",
+      "nameEn": "Helium-3",
+      "isotope": 3,
+      "massNumber": 3
+    },
+    "conditions": "原子核口径：Z=2，A=3；半衰期 稳定；天然丰度：天然氦中约 0.0002%。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第一级台阶的终点，1s 恰好容纳两个电子。 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "elements.he-4",
+    "title": "氦-4：氦-4 是天然氦的绝对主成分，原子核与α粒子相同",
+    "titleEn": "Helium-4",
+    "summary": "氦-4的原子序数 Z=2、质量数 A=4，稳定；氦-4 是天然氦的绝对主成分，原子核与α粒子相同；它在 2.17 K 附近进入超流态，是低温物理的基础工质。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 2 · 氦-4（A = 4）",
+    "quantity": {
+      "value": 2,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=4",
+      "measureLabel": "氦-4的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "He",
+      "nameEn": "Helium-4",
+      "isotope": 4,
+      "massNumber": 4
+    },
+    "conditions": "原子核口径：Z=2，A=4；半衰期 稳定；天然丰度：天然氦中约 99.9998%。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第一级台阶的终点，1s 恰好容纳两个电子。 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
   },
   {
     "id": "elements.li",
@@ -230,6 +366,40 @@
       "p 区",
       "碳"
     ]
+  },
+  {
+    "id": "elements.c-14",
+    "title": "碳-14：碳-14 的半衰期约 5,700 年，定年上限通常约 5",
+    "titleEn": "Carbon-14",
+    "summary": "碳-14的原子序数 Z=6、质量数 A=14，5,700 年；碳-14 的半衰期约 5,700 年，定年上限通常约 5 万年的量级；它测的是生物死亡后碳交换停止的时间，不是岩石年龄。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 6 · 碳-14（A = 14）",
+    "quantity": {
+      "value": 6,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=14",
+      "measureLabel": "碳-14的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "C",
+      "nameEn": "Carbon-14",
+      "isotope": 14,
+      "massNumber": 14
+    },
+    "conditions": "原子核口径：Z=6，A=14；半衰期 5,700 年；天然丰度：宇宙射线与大气氮反应持续生成。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第二级台阶中段，2p 上出现第二个电子。 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
   },
   {
     "id": "elements.n",
@@ -736,6 +906,40 @@
     ]
   },
   {
+    "id": "elements.k-40",
+    "title": "钾-40：钾-40 大约每 100 个原子中有 89 个β⁻ 衰变",
+    "titleEn": "Potassium-40",
+    "summary": "钾-40的原子序数 Z=19、质量数 A=40，12.5 亿年；钾-40 大约每 100 个原子中有 89 个β⁻ 衰变成钙-40，约 11 个电子俘获成氩-40；两条分支让钾-氩与氩-氩定年成为可能。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 19 · 钾-40（A = 40）",
+    "quantity": {
+      "value": 19,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=40",
+      "measureLabel": "钾-40的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "K",
+      "nameEn": "Potassium-40",
+      "isotope": 40,
+      "massNumber": 40
+    },
+    "conditions": "原子核口径：Z=19，A=40；半衰期 12.5 亿年；天然丰度：天然钾中约 0.012%。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第四级台阶的第一格，4s 先于 3d 被占。 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
     "id": "elements.ca",
     "title": "钙：第 20 个质子把 4s 填满，却让 3d 继续空着",
     "titleEn": "Calcium",
@@ -1002,6 +1206,40 @@
     ]
   },
   {
+    "id": "elements.fe-56",
+    "title": "铁-56：铁-56 是天然铁中占比最高的同位素，核结合能约 8.7",
+    "titleEn": "Iron-56",
+    "summary": "铁-56的原子序数 Z=26、质量数 A=56，稳定；铁-56 是天然铁中占比最高的同位素，核结合能约 8.79 MeV/核子；铁峰附近继续聚变不再释放能量，恒星核心因此失去支撑。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 26 · 铁-56（A = 56）",
+    "quantity": {
+      "value": 26,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=56",
+      "measureLabel": "铁-56的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Fe",
+      "nameEn": "Iron-56",
+      "isotope": 56,
+      "massNumber": 56
+    },
+    "conditions": "原子核口径：Z=26，A=56；半衰期 稳定；天然丰度：天然铁中占比最高。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "3d 台阶越过半充满，铁峰就在这一格附近。 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
     "id": "elements.co",
     "title": "钴：第 27 个质子让 3d 开始成对，电离能不升反降",
     "titleEn": "Cobalt",
@@ -1076,6 +1314,40 @@
       "3d 填充",
       "镍"
     ]
+  },
+  {
+    "id": "elements.ni-62",
+    "title": "镍-62：镍-62 的每核子结合能约 8.7947 MeV，略高于",
+    "titleEn": "Nickel-62",
+    "summary": "镍-62的原子序数 Z=28、质量数 A=62，稳定；镍-62 的每核子结合能约 8.7947 MeV，略高于铁-56；它是核物理中“结合能最高”的常见答案，但差异只有千分之几。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 28 · 镍-62（A = 62）",
+    "quantity": {
+      "value": 28,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=62",
+      "measureLabel": "镍-62的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Ni",
+      "nameEn": "Nickel-62",
+      "isotope": 62,
+      "massNumber": 62
+    },
+    "conditions": "原子核口径：Z=28，A=62；半衰期 稳定；天然丰度：天然镍的稳定同位素之一。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "3d 台阶逼近填满，4s 仍保持两个电子。 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
   },
   {
     "id": "elements.cu",
@@ -1423,6 +1695,40 @@
       "s 区",
       "铷"
     ]
+  },
+  {
+    "id": "elements.rb-87",
+    "title": "铷-87：铷-87 的半衰期约 488 亿年，长于宇宙年龄",
+    "titleEn": "Rubidium-87",
+    "summary": "铷-87的原子序数 Z=37、质量数 A=87，488 亿年；铷-87 的半衰期约 488 亿年，长于宇宙年龄；它衰变成锶-87，铷-锶等时线可以同时求年龄与初始锶同位素比。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 37 · 铷-87（A = 87）",
+    "quantity": {
+      "value": 37,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=87",
+      "measureLabel": "铷-87的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Rb",
+      "nameEn": "Rubidium-87",
+      "isotope": 87,
+      "massNumber": 87
+    },
+    "conditions": "原子核口径：Z=37，A=87；半衰期 488 亿年；天然丰度：天然铷中约 27.8%。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第五周期第一格，5s 只放了一枚电子。 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
   },
   {
     "id": "elements.sr",
@@ -3155,6 +3461,108 @@
     ]
   },
   {
+    "id": "elements.pb-206",
+    "title": "铅-206：铅-206 是铀-238 衰变链的稳定终点",
+    "titleEn": "Lead-206",
+    "summary": "铅-206的原子序数 Z=82、质量数 A=206，稳定；铅-206 是铀-238 衰变链的稳定终点；岩石中铅-206 与铀-238 的比例越高，通常说明体系封闭的时间越长。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 82 · 铅-206（A = 206）",
+    "quantity": {
+      "value": 82,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=206",
+      "measureLabel": "铅-206的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Pb",
+      "nameEn": "Lead-206",
+      "isotope": 206,
+      "massNumber": 206
+    },
+    "conditions": "原子核口径：Z=82，A=206；半衰期 稳定；天然丰度：天然铅的主要稳定同位素之一。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6p 开始填充 · 6s2 已形成惰性电子对 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "elements.pb-207",
+    "title": "铅-207：铅-207 是铀-235 衰变链的稳定终点",
+    "titleEn": "Lead-207",
+    "summary": "铅-207的原子序数 Z=82、质量数 A=207，稳定；铅-207 是铀-235 衰变链的稳定终点；铀-235 与铀-238 的半衰期不同，两条时钟可以互相校验。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 82 · 铅-207（A = 207）",
+    "quantity": {
+      "value": 82,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=207",
+      "measureLabel": "铅-207的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Pb",
+      "nameEn": "Lead-207",
+      "isotope": 207,
+      "massNumber": 207
+    },
+    "conditions": "原子核口径：Z=82，A=207；半衰期 稳定；天然丰度：天然铅的稳定同位素之一。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6p 开始填充 · 6s2 已形成惰性电子对 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "elements.pb-208",
+    "title": "铅-208：铅-208 是钍-232 衰变链的稳定终点，也是天然铅中",
+    "titleEn": "Lead-208",
+    "summary": "铅-208的原子序数 Z=82、质量数 A=208，稳定；铅-208 是钍-232 衰变链的稳定终点，也是天然铅中占比最高的同位素；钍-铅体系可提供与铀-铅独立的时钟。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 82 · 铅-208（A = 208）",
+    "quantity": {
+      "value": 82,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=208",
+      "measureLabel": "铅-208的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Pb",
+      "nameEn": "Lead-208",
+      "isotope": 208,
+      "massNumber": 208
+    },
+    "conditions": "原子核口径：Z=82，A=208；半衰期 稳定；天然丰度：天然铅中占比最高。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "6p 开始填充 · 6s2 已形成惰性电子对 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
     "id": "elements.bi",
     "title": "铋：第 83 个质子补到 6p³ 半满，N/Z 第一次不再增加",
     "titleEn": "Bismuth",
@@ -3465,6 +3873,40 @@
     ]
   },
   {
+    "id": "elements.th-232",
+    "title": "钍-232：钍-232 的半衰期约 140.5 亿年，是天然钍的绝对",
+    "titleEn": "Thorium-232",
+    "summary": "钍-232的原子序数 Z=90、质量数 A=232，140.5 亿年；钍-232 的半衰期约 140.5 亿年，是天然钍的绝对主成分；它的衰变链最终落在稳定的铅-208。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 90 · 钍-232（A = 232）",
+    "quantity": {
+      "value": 90,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=232",
+      "measureLabel": "钍-232的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "Th",
+      "nameEn": "Thorium-232",
+      "isotope": 232,
+      "massNumber": 232
+    },
+    "conditions": "原子核口径：Z=90，A=232；半衰期 140.5 亿年；天然丰度：天然钍几乎全部是钍-232。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "第七级台阶的第四格，6d 收尾而 5f 尚未开启。 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
     "id": "elements.pa",
     "title": "镤：第 91 个质子第一次占住 5f，锕系才真正进入 f 区",
     "titleEn": "Protactinium",
@@ -3541,6 +3983,74 @@
       "锕系",
       "铀"
     ]
+  },
+  {
+    "id": "elements.u-235",
+    "title": "铀-235：铀-235 是唯一在热中子下易裂变的天然同位素",
+    "titleEn": "Uranium-235",
+    "summary": "铀-235的原子序数 Z=92、质量数 A=235，7.04 亿年；铀-235 是唯一在热中子下易裂变的天然同位素；天然铀中只占约 0.72%，低浓铀通常把比例提高到 3%–5%。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 92 · 铀-235（A = 235）",
+    "quantity": {
+      "value": 92,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=235",
+      "measureLabel": "铀-235的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "U",
+      "nameEn": "Uranium-235",
+      "isotope": 235,
+      "massNumber": 235
+    },
+    "conditions": "原子核口径：Z=92，A=235；半衰期 7.04 亿年；天然丰度：天然铀中约 0.72%。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5f 与 6d 交错 · 7s 保持闭合 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "elements.u-238",
+    "title": "铀-238：铀-238 的半衰期约 44.68 亿年，与地球年龄同量",
+    "titleEn": "Uranium-238",
+    "summary": "铀-238的原子序数 Z=92、质量数 A=238，44.68 亿年；铀-238 的半衰期约 44.68 亿年，与地球年龄同量级；它通过一系列 α/β 衰变最终变成稳定的铅-206。",
+    "dimension": "element",
+    "category": "同位素",
+    "displayValue": "Z = 92 · 铀-238（A = 238）",
+    "quantity": {
+      "value": 92,
+      "unit": "Z",
+      "measure": "原子序数 Z；本同位素质量数 A=238",
+      "measureLabel": "铀-238的原子序数与质量数口径",
+      "approximate": false
+    },
+    "element": {
+      "symbol": "U",
+      "nameEn": "Uranium-238",
+      "isotope": 238,
+      "massNumber": 238
+    },
+    "conditions": "原子核口径：Z=92，A=238；半衰期 44.68 亿年；天然丰度：天然铀中约 99.27%。",
+    "visual": {
+      "scene": "elements.shell-ladder",
+      "caption": "5f 与 6d 交错 · 7s 保持闭合 · 同位素对照",
+      "note": "同位素以质子数与中子数为定义；画面只作核素关系示意，不表示真实轨道或半径比例。"
+    },
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "reviewStatus": "reviewed"
   },
   {
     "id": "elements.np",
