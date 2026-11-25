@@ -56,10 +56,10 @@ sources:
     url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
-  - title: 'Nutrition: Effects of iodine deficiency'
+  - title: "Micronutrients"
     url: >-
-      https://www.who.int/news-room/questions-and-answers/item/nutrition-effects-of-iodine-deficiency
-    publisher: World Health Organization
+      https://www.who.int/health-topics/micronutrients
+    publisher: "World Health Organization"
     accessed: '2026-11-24'
 tags:
   - 元素
