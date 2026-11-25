@@ -44,6 +44,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/112/copernicium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 超重元素, 第七周期, 鎶, 预测值]
 rights:
   status: rewritten
@@ -71,3 +75,5 @@ rights:
 ## 它从哪里来
 
 鎶没有天然来源，只能靠重离子轰击合成：加速器把较轻的核打到锕系靶上，一次只得到少数原子，再沿 α 衰变链识别。[2] 它挂在核时代时间轴上，是人工合成路径的延伸；已知同位素半衰期极短，无法积累样品。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

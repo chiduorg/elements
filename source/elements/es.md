@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/99/einsteinium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 锿]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“人工（加速器）”。锿由人工核反应合成，产量以原子计，靠α衰变链的能量与半衰期确认身份。[2] 挂到核时代节点之后：反应堆难以再往上推进，加速器成为主要路径。锿没有稳定同位素，样品无法积累，只能现做现测。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

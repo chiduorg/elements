@@ -880,4 +880,3 @@ load().catch((error) => {
   $('summary').textContent = '原型数据未能加载：' + error.message;
   $('stage').innerHTML = '<div style="position:absolute;inset:0;display:grid;place-items:center;color:#8ea6b8;font-size:12px;letter-spacing:.1em">3D 场景加载失败</div>';
 });
-

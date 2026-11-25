@@ -471,9 +471,8 @@
   .elements-page .el-immersive .stats .stat:nth-child(n+3) { display: none; }
   .elements-page .el-immersive .stat label { font-size: 8px; }
   .elements-page .el-immersive .stat strong { font-size: 12px; }
-  .elements-page .el-immersive .stat small { display: none; }
   .elements-page .el-immersive .delta { display: none; }
-  .elements-page .el-immersive .article-link { padding-top: 7px; font-size: 8px; }
+  .elements-page .el-immersive .article-link { padding-top: 8px; font-size: 10px; min-height: 34px; }
   .elements-page .el-immersive .console-head .meta { display: none; }
   .elements-page .el-immersive .console-head strong { font-size: 10px; }
   .elements-page .el-immersive .ticks span:nth-child(even) { display: none; }

@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/100/fermium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 镄]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“人工（加速器）”。镄由人工核反应合成，一次实验只得到少量原子，靠α衰变链识别。[2] 挂到核时代节点之后：它既不是天然衰变链的成员，也不在恒星核合成的产物里。镄没有稳定同位素，这决定了它只能作为实验对象，而不是可积累的材料。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

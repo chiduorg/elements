@@ -44,6 +44,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/114/flerovium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 超重元素, 第七周期, 𫓧, 预测值]
 rights:
   status: rewritten
@@ -75,3 +79,5 @@ rights:
 ## 它从哪里来
 
 𫓧只能由重离子轰击产生，靠衰变链识别，产量以原子计。[2] 它挂在核时代时间轴上，属于人工合成；无稳定同位素，已知同位素半衰期极短，不能形成可称量的样品。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

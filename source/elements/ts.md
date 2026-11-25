@@ -44,6 +44,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/117/tennessine'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 超重元素, 第七周期, 鿬, 预测值]
 rights:
   status: rewritten
@@ -73,3 +77,5 @@ rights:
 ## 它从哪里来
 
 鿬由重离子轰击合成，一次只得到几个原子，靠 α 衰变链识别。[2] 它挂在核时代节点上，是人工合成的产物；无稳定同位素，已知同位素半衰期极短。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

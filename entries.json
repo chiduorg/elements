@@ -4819,6 +4819,426 @@
     ]
   },
   {
+    "id": "elements.overview-block-d",
+    "title": "d 区：过渡金属的多价态与颜色",
+    "titleEn": "The d-block: variable valence and colour",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "d 区包括第 3–12 族，最后填入 (n−1)d 亚层；过渡金属的多价态、配位化合物、颜色与磁性都源于部分填充的 d 电子。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "d 区：过渡金属的多价态与颜色",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "区块"
+    ]
+  },
+  {
+    "id": "elements.overview-block-f",
+    "title": "f 区：镧系与锕系的内层填充",
+    "titleEn": "The f-block: lanthanides and actinides",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "f 区包括镧系与锕系，最后填入 4f 或 5f 亚层；它们化学性质相近、分离困难，锕系还普遍具放射性。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "f 区：镧系与锕系的内层填充",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "区块"
+    ]
+  },
+  {
+    "id": "elements.overview-block-p",
+    "title": "p 区：非金属、半金属与惰性气体的舞台",
+    "titleEn": "The p-block: nonmetals, metalloids and noble gases",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "p 区包括第 13–18 族（氦除外），最后填入 np 亚层；碳、氮、氧、硅、硫、卤素与惰性气体都在这里。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "p 区：非金属、半金属与惰性气体的舞台",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "区块"
+    ]
+  },
+  {
+    "id": "elements.overview-block-s",
+    "title": "s 区：最外层电子的起点",
+    "titleEn": "The s-block: where the outer shell begins",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "s 区包括第 1、2 族与氦，最后填入 ns 亚层；它集中了最活泼的金属，也包含氢与氦两个特殊元素。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "s 区：最外层电子的起点",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "区块"
+    ]
+  },
+  {
+    "id": "elements.overview-group-1",
+    "title": "第 1 族：碱金属与氢的特殊位置",
+    "titleEn": "Group 1: alkali metals and hydrogen’s special seat",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第 1 族包括氢、锂、钠、钾、铷、铯、钫；除氢外都是碱金属，具有一个价 s 电子，反应性随周期向下增强。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第 1 族：碱金属与氢的特殊位置",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "族"
+    ]
+  },
+  {
+    "id": "elements.overview-group-17",
+    "title": "第 17 族：卤素从氟到鿬",
+    "titleEn": "Group 17: halogens from fluorine to tennessine",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第 17 族包括氟、氯、溴、碘、砹、鿬；价电子构型 ns²np⁵，常形成 −1 离子，反应性从氟向下总体减弱。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第 17 族：卤素从氟到鿬",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "族"
+    ]
+  },
+  {
+    "id": "elements.overview-group-18",
+    "title": "第 18 族：惰性气体的闭壳与例外",
+    "titleEn": "Group 18: closed shells and exceptions",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第 18 族包括氦、氖、氩、氪、氙、氡、鿫；价层闭壳使它们反应性很低，但氙、氪等仍可形成化合物。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第 18 族：惰性气体的闭壳与例外",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "族"
+    ]
+  },
+  {
+    "id": "elements.overview-group-2",
+    "title": "第 2 族：碱土金属的两电子账",
+    "titleEn": "Group 2: the two-electron ledger of alkaline earths",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第 2 族包括铍、镁、钙、锶、钡、镭；价电子构型 ns²，常见 +2 氧化态，反应性随周期向下增强。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第 2 族：碱土金属的两电子账",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "族"
+    ]
+  },
+  {
+    "id": "elements.overview-period-1",
+    "title": "第一周期：只有两个元素的开端",
+    "titleEn": "Period 1: the two-element opening",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第一周期只有氢与氦，一个填充 1s 轨道，一个把 1s 填满；它确立了周期表最短的一行，也藏着恒星与宇宙最早的化学。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第一周期：只有两个元素的开端",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ]
+  },
+  {
+    "id": "elements.overview-period-2",
+    "title": "第二周期：八个元素搭起生命的骨架",
+    "titleEn": "Period 2: eight elements and the scaffold of life",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第二周期从锂到氖共 8 个元素，首次填满 2s 与 2p；碳、氮、氧、氟在这里出现，构成有机化学与生命分子的主骨架。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第二周期：八个元素搭起生命的骨架",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ]
+  },
+  {
+    "id": "elements.overview-period-3",
+    "title": "第三周期：从钠到氩的八级台阶",
+    "titleEn": "Period 3: eight steps from sodium to argon",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第三周期从钠到氩共 8 个元素，填满 3s 与 3p；硅、磷、硫、氯在这里出现，连接矿物、半导体、肥料与盐。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第三周期：从钠到氩的八级台阶",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ]
+  },
+  {
+    "id": "elements.overview-period-4",
+    "title": "第四周期：过渡金属第一次登场",
+    "titleEn": "Period 4: the first transition series",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第四周期从钾到氪共 18 个元素，首次填充 3d；铁、铜、锌等过渡金属在这里出现，带来多价态、颜色与磁性。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第四周期：过渡金属第一次登场",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ]
+  },
+  {
+    "id": "elements.overview-period-5",
+    "title": "第五周期：4d 金属与更重的卤素",
+    "titleEn": "Period 5: 4d metals and heavier halogens",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第五周期从铷到氙共 18 个元素，填充 4d；银、镉、碘、氙在这里出现，连接贵金属、催化与照明。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第五周期：4d 金属与更重的卤素",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ]
+  },
+  {
+    "id": "elements.overview-period-6",
+    "title": "第六周期：镧系与重过渡金属",
+    "titleEn": "Period 6: lanthanides and heavy transition metals",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第六周期从铯到氡共 32 个元素，加入 4f 镧系与 5d 过渡金属；金、汞、铅与稀土都在这一行。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第六周期：镧系与重过渡金属",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ]
+  },
+  {
+    "id": "elements.overview-period-7",
+    "title": "第七周期：锕系与超重元素的边界",
+    "titleEn": "Period 7: actinides and the superheavy frontier",
+    "dimension": "element",
+    "category": "总览层",
+    "summary": "第七周期从钫到鿫共 32 个元素，加入 5f 锕系与 6d 超重元素；全部具放射性，许多只在实验室合成。",
+    "quantity": {
+      "value": null,
+      "unit": "Z",
+      "measure": "族/周期/区块总览，不对应单一原子序数",
+      "status": "undetermined",
+      "approximate": false
+    },
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "conditions": "族/周期/区块的结构总览；不把整族或整周期当作单一元素，也不把总览页放入 Z 排序。",
+    "visual": {
+      "scene": "elements.explain",
+      "caption": "第七周期：锕系与超重元素的边界",
+      "note": "总览页不进入元素轴；表格与壳层为结构示意，不表示某一原子的实际尺寸。"
+    },
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ]
+  },
+  {
     "id": "elements.source-abundance",
     "title": "太阳系元素丰度：一张继承下来的化学账单",
     "titleEn": "Solar-System Elemental Abundance",
